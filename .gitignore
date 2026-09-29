@@ -1,0 +1,54 @@
+# ── 환경변수 / 비밀 ─────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ── SSL 인증서 · 개인키 (절대 커밋 금지) ────
+nginx/ssl/
+certbot/conf/
+certbot/logs/
+*.pem
+*.key
+*.crt
+nginx/.htpasswd
+
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Node ────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# ── 데이터 · 산출물 (리포에 포함하지 않음) ──
+backend/rag_data/
+backend/chroma_db/
+*.sqlite3
+*.log
+logs/
+backup/
+*.dump
+backup_*.sql
+
+# ── 모델 파일 (분류기 산출물, 로컬 LLM 가중치) ──
+*.pkl
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+models/
+
+# ── OS · 에디터 ─────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

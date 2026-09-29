@@ -1,0 +1,82 @@
+# robots.txt for Seraphina Tarot - Aggressive Crawling Enabled
+
+# Google and major search engines - Full access, no delays
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0
+
+# Google AdSense 크롤러 — 광고 관련성 평가용
+User-agent: Mediapartners-Google
+Allow: /
+Crawl-delay: 0
+
+# Google AdsBot — 광고 페이지 품질 평가용
+User-agent: AdsBot-Google
+Allow: /
+Crawl-delay: 0
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Yeti
+Allow: /
+Crawl-delay: 0
+
+# Naver (Korean search engine)
+User-agent: Yeti
+Allow: /
+Crawl-delay: 0
+
+User-agent: NaverBot
+Allow: /
+Crawl-delay: 0
+
+# Daum (Korean search engine)
+User-agent: Daumoa
+Allow: /
+Crawl-delay: 0
+
+# All other crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://serapina.kr/sitemap.xml
+
+# Explicitly allow important paths for better indexing
+Allow: /cards/
+Allow: /guides/
+Allow: /blog/
+Allow: /privacy
+Allow: /terms

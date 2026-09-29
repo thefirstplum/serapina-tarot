@@ -1,0 +1,879 @@
+{
+  "app": {
+    "name": "Seraphina Tarot"
+  },
+  "nav": {
+    "home": "Home",
+    "chat": "Tarot Reading",
+    "cards": "Card Dictionary",
+    "guides": "Reading Guides",
+    "blog": "Tarot Stories",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "landing": {
+    "header": {
+      "appTitle": "💖 Seraphina Tarot 💫",
+      "chatBtn": "Get a Reading",
+      "cardsTitle": "Card Dictionary",
+      "guidesTitle": "Reading Guides",
+      "blogTitle": "Tarot Stories"
+    },
+    "hero": {
+      "badge": "AI Tarot Reader Seraphina",
+      "title": "Today, the Stars\nShare Their Story",
+      "desc1": "Ask the question in your heart",
+      "desc2": "The tarot cards will light your way",
+      "placeholder": "Ask anything! e.g., What does my crush think of me?",
+      "cta": "Start Free Tarot Reading",
+      "inputLabel": "Or ask your question directly"
+    },
+    "socialProof": {
+      "readings": "78",
+      "readingsLabel": "Tarot Cards",
+      "satisfaction": "3 Free",
+      "satisfactionLabel": "Daily Readings",
+      "available": "24/7",
+      "availableLabel": "Always Available"
+    },
+    "categories": {
+      "love": "Love",
+      "career": "Career",
+      "money": "Money",
+      "study": "Study",
+      "health": "Health",
+      "other": "Other"
+    },
+    "todayCard": {
+      "label": "Today's Card",
+      "shareBtn": "Share"
+    },
+    "popular": {
+      "title": "Most Popular Questions",
+      "views": "{count} people viewed"
+    },
+    "topics": {
+      "title": "Topics of Concern",
+      "love": {
+        "name": "Love & Relationships",
+        "desc": "Crushes, dating, breakups, reconciliation"
+      },
+      "career": {
+        "name": "Work & Career",
+        "desc": "Job search, career changes, life path"
+      },
+      "study": {
+        "name": "Academics & Exams",
+        "desc": "Test preparation, grades, studies"
+      },
+      "money": {
+        "name": "Wealth & Investment",
+        "desc": "Financial luck, money management, investments"
+      }
+    },
+    "info": {
+      "title": "Seraphina's Promise",
+      "cards": {
+        "title": "The Wisdom of 78 Cards",
+        "desc1": "With the wisdom symbolized by the 78 cards,",
+        "desc2": "we deeply analyze your present situation",
+        "desc3": "and illuminate the path forward."
+      },
+      "conversation": {
+        "title": "A Comfortable Conversation",
+        "desc1": "Feel free to share your concerns as you would with a friend.",
+        "desc2": "Seraphina will listen to your story",
+        "desc3": "with all her heart."
+      },
+      "available": {
+        "title": "Always Here For You",
+        "desc1": "Whenever a concern arises, whether it's dawn or daytime, come find me.",
+        "desc2": "Without the limits of time or place,",
+        "desc3": "Seraphina is waiting for you."
+      },
+      "easy": {
+        "title": "Start Your Tarot Reading Right Away",
+        "desc1": "Enter your question and choose your cards,",
+        "desc2": "then AI provides a deep tarot interpretation.",
+        "desc3": "You can use it 3 times a day for free."
+      }
+    },
+    "arcana": {
+      "title": "The Tarot Cards",
+      "major": {
+        "title": "The Major Arcana",
+        "desc1": "These 22 cards symbolize life's major turning points and spiritual journey.",
+        "desc2": "From 0 The Fool to 21 The World, they hold the great flow and lessons of life.",
+        "desc3": "",
+        "btn": "Explore the Major Arcana"
+      },
+      "minor": {
+        "title": "The Minor Arcana",
+        "desc1": "These 56 cards deal with specific events and emotions of daily life.",
+        "desc2": "The four suits illuminate your everyday experiences.",
+        "desc3": "",
+        "btn": "Explore the Minor Arcana"
+      }
+    },
+    "blog": {
+      "title": "Others Are Asking These Questions Too",
+      "desc": "Get closer to tarot through a variety of concerns and interpretations.",
+      "viewAll": "View All Stories"
+    },
+    "finalCta": {
+      "title": "Now, it's your turn to share your story",
+      "desc": "Seraphina will light your path with the wisdom of the cards.",
+      "btn": "Start a Tarot Reading"
+    },
+    "footer": {
+      "cards": "Card Dictionary",
+      "guides": "Reading Guides",
+      "blog": "Tarot Stories",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "copyright": "© 2025 Seraphina Tarot. All rights reserved."
+    }
+  },
+  "chat": {
+    "appTitle": "Seraphina Tarot",
+    "subtitle": "AI Tarot Master Seraphina is here to listen to your concerns.",
+    "subtitleOffline": "Offline Mode (Trial)",
+    "offlineChip": "Offline",
+    "placeholder": "What's on your mind? Feel free to tell me anything...",
+    "devTools": "Developer Tools",
+    "offlineTest": "Offline Mode Test",
+    "shareButton": "Share",
+    "header": {
+      "homeTitle": "Home",
+      "newChatTitle": "New Chat",
+      "historyTitle": "History",
+      "infoTitle": "Info"
+    },
+    "theme": {
+      "title": "Theme Settings"
+    },
+    "drawer": {
+      "title": "Menu",
+      "resources": {
+        "title": "Tarot Resources",
+        "cards": "Tarot Card Meanings",
+        "guides": "Reading Guides by Topic",
+        "blog": "Tarot Stories"
+      },
+      "language": {
+        "title": "Language Settings"
+      },
+      "howTo": {
+        "title": "How to Use",
+        "step1": "💬 Share your concerns comfortably",
+        "step2": "🎴 Draw the cards that speak to you",
+        "step3": "✨ Receive Seraphina's interpretation"
+      },
+      "about": {
+        "title": "About Tarot",
+        "desc": "Tarot is not about fortune-telling, but a mirror that reflects the heart. It doesn't give answers, but helps you find them yourself.",
+        "note1": "💡 Use tarot for guidance! The final decision is yours.",
+        "note2": "Asking the same question too often can confuse the cards."
+      },
+      "legal": {
+        "title": "Legal Information",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact Us"
+      },
+      "appInfo": {
+        "title": "App Information",
+        "version": "v1.0.0",
+        "desc": "© 2025 Seraphina Tarot. All rights reserved."
+      },
+      "feedbackBtn": "Send Feedback",
+      "copyright": "© 2025 Seraphina Tarot. All rights reserved."
+    },
+    "newChatButton": "Start Over",
+    "newChatConfirm": "Start a new tarot reading? Your current conversation will be cleared.",
+    "cardsSelected": "Cards Selected",
+    "shareTitle": "Seraphina Tarot Reading Result",
+    "pullToRefresh": {
+      "pull": "Pull down to refresh",
+      "release": "Release to refresh"
+    }
+  },
+  "cardPicker": {
+    "title": "Please select your cards",
+    "selected": "Selected",
+    "confirm": "Confirm Selection",
+    "shuffle": "Shuffle Cards",
+    "reshuffleTitle": "Reshuffle",
+    "shuffling": "Shuffling the cards... 💫",
+    "shuffleWait": "Just a moment, please!",
+    "emptyMessage": "Trust your intuition. Choose the cards that call to you. 💕",
+    "reversedIndicator": "↻",
+    "selectedCount": "{selected}/{total}",
+    "nextHint": "{position}",
+    "remaining": "Please select {count} more cards"
+  },
+  "cards": {
+    "main": {
+      "title": "Tarot Card Dictionary",
+      "subtitle": "Messages of wisdom from the 78 cards",
+      "majorTitle": "Major Arcana",
+      "majorSubtitle": "The 22-card journey of life's great flow",
+      "majorDescription": "From 0 The Fool to 21 The World, these cards hold the story of our life's journey, revealing fateful encounters, major decisions, and turning points.",
+      "majorCardCount": "View all 22 cards",
+      "minorTitle": "Minor Arcana",
+      "minorSubtitle": "56 cards of specific, everyday stories",
+      "minorDescription": "Today's feelings, tomorrow's plans, and small joys. Check for practical advice on specific situations.",
+      "minorCardCount": "View all 56 cards",
+      "suitsSectionTitle": "Cards by Suit",
+      "ctaIcon": "💬",
+      "ctaTitle": "Your concerns, perhaps the cards know the answer.",
+      "ctaDescription": "Love, career, exams... whatever it is, it's okay. Seraphina will find the answer for you through the cards. ✨",
+      "ctaButton": "Chat with Seraphina"
+    },
+    "suits": {
+      "cups": {
+        "icon": "💖",
+        "name": "Cups",
+        "theme": "Emotions, Love, Relationships",
+        "description": "When you need to listen to your heart on matters of love and relationships",
+        "element": "Element of Water",
+        "fullDescription": "The element of Water, symbolizing emotions, relationships, love, and intuition"
+      },
+      "pentacles": {
+        "icon": "💰",
+        "name": "Pentacles",
+        "theme": "Reality, Wealth, Achievement",
+        "description": "When you need practical advice on work, money, or health",
+        "element": "Element of Earth",
+        "fullDescription": "The element of Earth, symbolizing the material world, finances, reality, and health"
+      },
+      "swords": {
+        "icon": "⚡",
+        "name": "Swords",
+        "theme": "Reason, Thought, Decision",
+        "description": "When you need clear judgment and a decisive mind",
+        "element": "Element of Air",
+        "fullDescription": "The element of Air, symbolizing intellect, logic, conflict, and truth"
+      },
+      "wands": {
+        "icon": "✨",
+        "name": "Wands",
+        "theme": "Passion, Action, Creativity",
+        "description": "For new inspiration and when you need the courage to take on a challenge",
+        "element": "Element of Fire",
+        "fullDescription": "The element of Fire, symbolizing passion, creation, action, and inspiration"
+      }
+    },
+    "majorArcana": {
+      "title": "Major Arcana",
+      "subtitle": "A spiritual journey of 22 cards",
+      "introText": "The Major Arcana consists of 22 cards, from 0 The Fool to 21 The World, representing life's major turning points.",
+      "ctaTitle": "Get a Reading with the Major Arcana",
+      "ctaDescription": "Find hints for your important decisions.",
+      "ctaButton": "Start a Tarot Reading"
+    },
+    "minorArcana": {
+      "title": "Minor Arcana",
+      "subtitle": "56 cards that illuminate the various moments of daily life",
+      "introText": "The Minor Arcana shows the diverse situations and emotions of daily life. It consists of four suits—Cups, Pentacles, Swords, and Wands—and each suit has number cards from Ace to 10, and the court cards: Page, Knight, Queen, and King.",
+      "structureTitle": "Card Structure",
+      "numberCardsTitle": "Number Cards (Ace - 10)",
+      "numberCardsDesc": "10 cards per suit that represent the stages of a situation.",
+      "numberCardsAce": "Ace:",
+      "numberCardsAceDesc": "New beginnings, potential",
+      "numberCards24": "2-4:",
+      "numberCards24Desc": "Early development",
+      "numberCards57": "5-7:",
+      "numberCards57Desc": "Challenges and growth",
+      "numberCards810": "8-10:",
+      "numberCards810Desc": "Completion and results",
+      "courtCardsTitle": "Court Cards",
+      "courtCardsDesc": "4 character cards per suit, symbolizing personalities or roles.",
+      "courtCardsPage": "Page:",
+      "courtCardsPageDesc": "Messages, learning, beginnings",
+      "courtCardsKnight": "Knight:",
+      "courtCardsKnightDesc": "Action, movement, pursuit",
+      "courtCardsQueen": "Queen:",
+      "courtCardsQueenDesc": "Nurturing, inner mastery",
+      "courtCardsKing": "King:",
+      "courtCardsKingDesc": "Authority, outer mastery",
+      "ctaTitle": "Need to solve daily worries?",
+      "ctaDescription": "The Minor Arcana can offer specific advice for your everyday concerns.",
+      "ctaButton": "Start a Tarot Reading",
+      "cupsDesc": "Emotions, relationships, love, intuition, creativity",
+      "pentaclesDesc": "Material world, finances, reality, health, stability",
+      "swordsDesc": "Intellect, logic, conflict, truth, communication",
+      "wandsDesc": "Passion, creation, action, inspiration, growth"
+    },
+    "suitDetail": {
+      "ctaTitle": "Get a Tarot Reading with {suitName} Cards",
+      "ctaDescription": "Receive the message from the {suitName} cards!",
+      "notFound": {
+        "title": "Card Not Found"
+      }
+    },
+    "detail": {
+      "noCard": "No Card Information",
+      "descriptionTitle": "Card Description",
+      "uprightTitle": "Upright Meaning",
+      "reversedTitle": "Reversed Meaning",
+      "infoTitle": "Card Information",
+      "keywordsTitle": "Keywords",
+      "categoryLabel": "Category",
+      "suitLabel": "Suit",
+      "elementLabel": "Element",
+      "ctaTitle": "Get a Tarot Reading with the {cardName} Card",
+      "ctaDescription": "Let's explore the deeper message of the {cardName} card together.",
+      "ctaButton": "Start a Tarot Reading",
+      "notFoundTitle": "Card Not Found",
+      "backButton": "Back to Card Dictionary",
+      "inlineCta": "Curious about the meaning of {cardName}? Get a tarot reading now",
+      "relatedTitle": "Related Cards",
+      "shareLabel": "Share this card with friends",
+      "shareButton": "Share",
+      "copyLinkButton": "Copy Link",
+      "linkCopied": "Link copied!"
+    },
+    "suit": {
+      "noCard": "No Card Information",
+      "startReadingButton": "Start a Tarot Reading",
+      "backButton": "Back to Card Dictionary"
+    }
+  },
+  "guides": {
+    "main": {
+      "title": "Tarot Guides by Topic",
+      "subtitle": "Seraphina's tips for using tarot for any concern! 🍯",
+      "basicTips": "Basic Tarot Reading Tips",
+      "viewMore": "Learn More"
+    },
+    "love": {
+      "title": "Love Tarot",
+      "subtitle": "Read the flow of love and relationships",
+      "cardTitle": "Love Reading Guide",
+      "cardSubtitle": "Have someone on your mind?",
+      "description": "Crushes, dating, breakups... Ask the tarot about your love concerns. It will illuminate your path.",
+      "detailPage": {
+        "title": "Love Tarot Reading Guide",
+        "subtitle": "The complete guide to tarot readings for love and relationships",
+        "keywordsTitle": "Key Keywords for Love Readings",
+        "ctaTitle": "Start a Love Tarot Reading",
+        "ctaText": "Let's work through your love concerns together.",
+        "ctaButton": "Get Started Now",
+        "blogTitle": "💕 Love & Tarot Stories",
+        "blogSubtitle": "Explore real-life love concerns and their tarot interpretations.",
+        "faqTitle": "Frequently Asked Questions",
+        "readingCta": "Love Tarot Reading!",
+        "readingCtaDesc": "Let's solve your love concerns together! ✨",
+        "readingCtaButton": "Start a Tarot Reading"
+      }
+    },
+    "career": {
+      "title": "Career Tarot",
+      "subtitle": "Find your path to career and success",
+      "cardTitle": "Career Reading Guide",
+      "cardSubtitle": "Worried about your job, career, or future path?",
+      "description": "Interviews, job changes, promotions... Ask the tarot about your work concerns. It will provide hints for your career.",
+      "detailPage": {
+        "title": "Career Tarot Reading Guide",
+        "subtitle": "The complete guide to tarot readings for career and success",
+        "keywordsTitle": "Key Keywords for Career Readings",
+        "ctaTitle": "Start a Career Tarot Reading",
+        "ctaText": "Let's work through your career concerns together.",
+        "ctaButton": "Get Started Now",
+        "blogTitle": "💼 Career & Tarot Stories",
+        "blogSubtitle": "Explore real-life career concerns and their tarot interpretations.",
+        "goodCardsTitle": "Positive Cards for Career",
+        "readingCta": "Career Tarot Reading!",
+        "readingCtaDesc": "Let's solve your career concerns together! ✨",
+        "readingCtaButton": "Start a Tarot Reading"
+      }
+    },
+    "study": {
+      "title": "Academic Tarot",
+      "subtitle": "Check your fortune for studies and exams",
+      "cardTitle": "Academic Reading Guide",
+      "cardSubtitle": "Worried about exams, grades, or school?",
+      "description": "Exams, grades, future paths... Ask the tarot about your academic concerns. It will show you the way.",
+      "detailPage": {
+        "title": "Academic Tarot Reading Guide",
+        "subtitle": "Solve your academic worries with tarot!",
+        "keywordsTitle": "Key Keywords for Academic Readings",
+        "ctaTitle": "Start an Academic Tarot Reading",
+        "ctaText": "Let's solve your academic concerns and improve your grades together.",
+        "ctaButton": "Get Started Now",
+        "blogTitle": "📚 Academics & Tarot Stories",
+        "blogSubtitle": "Explore real-life academic concerns and their tarot interpretations.",
+        "goodCardsTitle": "Positive Cards for Academics",
+        "readingCta": "Academic Tarot Reading!",
+        "readingCtaDesc": "Let's solve your concerns, from exams to future paths! 📚✨",
+        "readingCtaButton": "Start a Tarot Reading"
+      }
+    },
+    "money": {
+      "title": "Money Tarot",
+      "subtitle": "Understand the flow of wealth and money",
+      "cardTitle": "Money Reading Guide",
+      "cardSubtitle": "Want to save money? Worried about investments?",
+      "description": "Wealth, investments, side jobs... Ask the tarot about your financial concerns. It will give you hints for your finances.",
+      "detailPage": {
+        "title": "Money Tarot Reading Guide",
+        "subtitle": "Solve your financial worries with tarot!",
+        "keywordsTitle": "Key Keywords for Money Readings",
+        "ctaTitle": "Start a Money Tarot Reading",
+        "ctaText": "Let's grow your wealth and save money together.",
+        "ctaButton": "Get Started Now",
+        "blogTitle": "💰 Money & Tarot Stories",
+        "blogSubtitle": "Explore real-life money management concerns and their tarot interpretations.",
+        "goodCardsTitle": "Positive Cards for Finances",
+        "readingCta": "Money Tarot Reading!",
+        "readingCtaDesc": "Let's solve your concerns, from wealth to investments! 💰✨",
+        "readingCtaButton": "Start a Tarot Reading"
+      }
+    },
+    "topics": {
+      "love": [
+        "Chances of success with a crush",
+        "What's on their mind",
+        "When to confess?",
+        "Can I get back with my ex?",
+        "How to improve our relationship"
+      ],
+      "career": [
+        "Is it a good time to change jobs?",
+        "Secrets to a successful interview",
+        "What is the right career path for me?",
+        "Can I succeed with a startup or side job?",
+        "Issues with workplace relationships"
+      ],
+      "study": [
+        "Will I do well on my exam?",
+        "How to improve my grades",
+        "Choosing between Path A vs. Path B",
+        "Finding my ideal study style",
+        "When I can't focus on studying"
+      ],
+      "money": [
+        "What is my financial fortune?",
+        "Is it a good time to invest?",
+        "New opportunities for side income",
+        "Advice for saving money",
+        "Realistic advice for financial independence"
+      ]
+    },
+    "cta": {
+      "icon": "",
+      "title": "Now, it's your turn to share your story",
+      "description": "Love, career, studies, money... Whatever your concern, feel free to share. Seraphina will find answers through the cards. ✨",
+      "button": "Chat with Seraphina ✨"
+    },
+    "common": {
+      "startButton": "Get Started Now",
+      "readingButton": "Start a Tarot Reading",
+      "readMore": "Read More"
+    },
+    "basicTips": {
+      "sectionTitle": "Basic Tarot Reading Tips",
+      "question": {
+        "icon": "❓",
+        "title": "Be Specific with Your Questions!",
+        "description": "Specific questions lead to much better interpretations than vague ones.",
+        "badExample": "A less helpful example:",
+        "badExampleText": "\"Will I find love?\"",
+        "goodExample": "A better example:",
+        "goodExampleText": "\"What should I do to develop a good relationship with him/her?\"",
+        "tip": "Tip:",
+        "tipText": "Including specific times or situations yields more accurate advice."
+      },
+      "interpretation": {
+        "icon": "🎴",
+        "title": "Go with Your Feeling!",
+        "description": "Don't overthink it. The first feeling you get from a card is the most important.",
+        "upright": "Upright:",
+        "uprightText": "The card's energy is active and positive.",
+        "reversed": "Reversed:",
+        "reversedText": "The energy is weak or directed inward.",
+        "tip": "Tip:",
+        "tipText": "Connect the cards to form a single, unfolding story."
+      },
+      "timing": {
+        "icon": "⏰",
+        "title": "Read with Intention!",
+        "description": "It's not good to ask the same question over and over again.",
+        "good": "Good times:",
+        "goodText": "Before a big decision, or when your mind is calm.",
+        "bad": "Bad times:",
+        "badText": "When you're highly emotional or after drinking.",
+        "tip": "Tip:",
+        "tipText": "It's best to wait at least 1-2 weeks before asking the same question."
+      },
+      "usage": {
+        "icon": "💡",
+        "title": "Tarot in Daily Life",
+        "description": "Tarot isn't just for love readings; you can use it in many daily situations.",
+        "daily": "Daily:",
+        "dailyText": "Check the day's energy with a 'Card of the Day'.",
+        "weekly": "Weekly:",
+        "weeklyText": "Preview the week's events with a 'Weekly Spread'.",
+        "choice": "Choices:",
+        "choiceText": "Get advice when choosing between A and B."
+      }
+    }
+  },
+  "blog": {
+    "list": {
+      "title": "✨ Tarot Stories 💫",
+      "subtitle": "Explore real-life concerns and their answers from the tarot.",
+      "readMore": "Read More"
+    },
+    "post": {
+      "viewCount": " views",
+      "situationTitle": "The Situation",
+      "cardsTitle": "The Cards Drawn",
+      "cardLabels": [
+        "The Past",
+        "The Present",
+        "The Future"
+      ],
+      "interpretationTitle": "Seraphina's Interpretation",
+      "adviceTitle": "Seraphina's Advice",
+      "categoryTitle": "Category",
+      "tagsTitle": "Tags",
+      "relatedCardsTitle": "Related Cards",
+      "ctaSidebarTitle": "Want your own reading?",
+      "ctaSidebarText": "Explore your concerns with AI Tarot Master Seraphina!",
+      "ctaMainTitle": "Want to explore your concerns with tarot?",
+      "ctaMainText": "Seraphina is waiting to hear your story.",
+      "startNowButton": "Start Now",
+      "startReadingButton": "Start a Tarot Reading",
+      "backButton": "Back to List",
+      "loading": "Loading post...",
+      "notFoundTitle": "Post Not Found",
+      "loadError": "Failed to load the post.",
+      "shareTitle": "Share this post",
+      "shareButton": "Share",
+      "copyLinkButton": "Copy Link",
+      "linkCopied": "Link copied!",
+      "inlineCtaText": "Solve your concerns with tarot too",
+      "inlineCtaButton": "Start Free Tarot Reading"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Seraphina Tarot Service",
+    "lastUpdated": "Last Updated"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Seraphina Tarot Service",
+    "lastUpdated": "Last Updated"
+  },
+  "footer": {
+    "about": "About Seraphina Tarot",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "© 2025 Seraphina Tarot. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "more": "More"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "Seraphina Tarot Service"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "subtitle": "Seraphina Tarot Service"
+    }
+  },
+  "feedback": {
+    "title": "Send Feedback",
+    "subtitle": "Please share your valuable feedback!",
+    "ratingTitle": "How satisfied were you?",
+    "categoriesTitle": "What did you like?",
+    "commentTitle": "Any other comments?",
+    "commentPlaceholder": "Feel free to leave suggestions for improvement or other thoughts! (Optional)",
+    "contactTitle": "Contact Info (Optional)",
+    "contactPlaceholder": "Your email or social media (only if you want a reply)",
+    "thankYouTitle": "Thank you! 💕",
+    "thankYouMessage": "Your feedback will help Seraphina grow!",
+    "closeButton": "Close"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "How can we help you?",
+    "typeLabel": "Inquiry Type",
+    "nameLabel": "Name",
+    "optional": "(Optional)",
+    "namePlaceholder": "Enter your name (optional)",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email for a reply",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Feel free to share your questions or feedback",
+    "infoText": "Thank you for your message. We'll get back to you soon!",
+    "thankYouTitle": "Message received! 📧",
+    "thankYouMessage": "We'll respond as soon as possible!",
+    "closeButton": "Close"
+  },
+  "components": {
+    "readingHistory": {
+      "title": "Tarot Reading History",
+      "subtitle": "Showing your last 5 readings.",
+      "loading": "Loading history...",
+      "error": "Could not load history.",
+      "retryButton": "Retry",
+      "emptyTitle": "No readings have been recorded yet.",
+      "emptySubtitle": "Get your first tarot reading!",
+      "cardsCount": " cards"
+    },
+    "offlineCard": {
+      "title": "Offline Mode",
+      "subtitle": "An internet connection is required.",
+      "message1": "You are not currently connected to the internet,",
+      "message2": "so Seraphina cannot provide a personal interpretation, but...",
+      "message3": "✨ Would you like to draw a Card of the Day instead?",
+      "drawButton": "Draw Card of the Day",
+      "drawHint": "See what message the card has for you today.",
+      "resultTitle": "🌟 Your Card",
+      "keywordsTitle": "💫 Key Keywords",
+      "redrawButton": "Draw Another Card"
+    },
+    "feedback": {
+      "title": "Send Feedback",
+      "subtitle": "Please share your valuable feedback!",
+      "ratingTitle": "How satisfied were you?",
+      "categoriesTitle": "What did you like?",
+      "commentTitle": "Any other comments?",
+      "commentPlaceholder": "Feel free to leave suggestions for improvement or other thoughts! (Optional)",
+      "contactTitle": "Contact Info (Optional)",
+      "contactPlaceholder": "Your email or social media (only if you want a reply)",
+      "submitButton": "Submit",
+      "closeButton": "Close",
+      "thankYouTitle": "Thank you! 💕",
+      "thankYouMessage": "Your feedback will help Seraphina grow!",
+      "categories": {
+        "comforting": "Comforting",
+        "accurate": "Accurate",
+        "insightful": "Insightful",
+        "friendly": "Friendly",
+        "easyToUse": "Easy to use"
+      },
+      "ratingLabels": {
+        "1": "Very disappointing... Needs improvement. 😥",
+        "2": "A bit disappointing. I'll try harder! 🤔",
+        "3": "It was average. Just okay. 😐",
+        "4": "I liked it! Quite satisfying. 😊",
+        "5": "It was amazing! I love it. 😍",
+        "default": "Tap a star to rate your experience!"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "How can we help you?",
+      "categoryTitle": "Inquiry Type",
+      "emailTitle": "Email Address",
+      "emailPlaceholder": "Please enter your email for a reply.",
+      "messageTitle": "Message",
+      "messagePlaceholder": "Feel free to write your questions or feedback.",
+      "submitButton": "Submit Inquiry",
+      "closeButton": "Close",
+      "thankYouTitle": "Inquiry Received! 📧",
+      "thankYouMessage": "We will get back to you as soon as possible!",
+      "categories": {
+        "feedback": "Feedback",
+        "bug": "Bug Report",
+        "partnership": "Ads/Partnership",
+        "other": "Other"
+      },
+      "validation": {
+        "required": "This field is required.",
+        "invalidEmail": "Please enter a valid email address."
+      }
+    }
+  },
+  "seo": {
+    "appName": "Seraphina Tarot",
+    "cards": {
+      "title": "Healing with Tarot Cards - Complete Guide to All 78 Cards | Seraphina Tarot",
+      "description": "Find comfort and healing with all 78 tarot cards: 22 Major Arcana and 56 Minor Arcana.",
+      "keywords": "tarot cards, tarot healing, major arcana, minor arcana, tarot comfort, tarot interpretation"
+    },
+    "cardDetail": {
+      "titleTemplate": "{cardName} Tarot Card Meaning | Seraphina Tarot",
+      "descriptionTemplate": "{cardName} tarot card meanings in upright and reversed positions. {description}",
+      "keywordsTemplate": "{cardName}, tarot, {category}, {keywords}",
+      "fallbackTitle": "Tarot Cards | Seraphina Tarot",
+      "fallbackDescription": "Tarot card details",
+      "fallbackKeywords": "tarot cards"
+    },
+    "cardsSuit": {
+      "titleTemplate": "{suitName} Tarot Cards Complete Guide | Seraphina Tarot",
+      "descriptionTemplate": "Complete interpretation of all 14 {suitName} cards. Discover tarot cards representing {description}.",
+      "keywordsTemplate": "{suitName}, tarot, {element}, minor arcana",
+      "fallbackTitle": "Tarot Cards | Seraphina Tarot",
+      "fallbackDescription": "Tarot card information",
+      "fallbackKeywords": "tarot cards"
+    },
+    "guides": {
+      "title": "Tarot Fortune Guide - Love, Career, Study, Money | Seraphina Tarot",
+      "description": "Comprehensive tarot fortune guide for love, career, exams, finances and more situations.",
+      "keywords": "tarot fortune, love fortune, career fortune, study fortune, money fortune, tarot guide"
+    },
+    "blog": {
+      "listTitle": "Tarot Stories - Real Tarot Reading Cases | Seraphina Tarot",
+      "listDescription": "Real stories of solving concerns about love, friendship, career, family, and study with tarot.",
+      "listKeywords": "crush tarot, breakup tarot, career tarot, tarot cases, tarot stories, tarot interpretation, free tarot"
+    }
+  },
+  "subscription": {
+    "title": "Premium Subscription",
+    "currentBadge": "Premium Active",
+    "benefitsTitle": "Premium Benefits",
+    "discountBadge": "33% OFF",
+    "monthlyPayment": "Monthly billing",
+    "selectPlan": "Please select a plan",
+    "payButton": "Pay ₩{price}",
+    "notice1": "Subscription starts from payment date. Cancel anytime before expiration.",
+    "notice2": "If already subscribed, remaining period will be extended.",
+    "benefits": {
+      "unlimited": "Unlimited tarot readings",
+      "unlimitedHistory": "Unlimited reading history",
+      "noAds": "Ad-free experience",
+      "premiumSpreads": "Premium tarot spreads"
+    },
+    "errors": {
+      "systemSetup": "Payment system setup required",
+      "paymentFailed": "An error occurred during payment"
+    }
+  },
+  "ad": {
+    "specialOfferTitle": "✨ Special Offer 💫",
+    "specialOfferSubtitle": "A gift from Seraphina!",
+    "premiumTitle": "Premium Tarot Reading",
+    "premiumDescription": "Need deeper tarot insights and unlimited readings?<br>Sign up for premium now and enjoy special benefits!",
+    "benefits": {
+      "unlimited": "Unlimited tarot readings",
+      "unlimitedHistory": "Unlimited reading history",
+      "noAds": "Ad-free experience",
+      "premiumSpreads": "Premium tarot spreads"
+    },
+    "originalPrice": "₩9,900",
+    "discountedPrice": "₩4,900/mo",
+    "discountLabel": "🎉 50% off first month!",
+    "laterButton": "Maybe later",
+    "signUpButton": "Go Premium ✨"
+  },
+  "rewardedAd": {
+    "title": "Today's free readings are used up",
+    "subtitle": "Get additional readings with these options!",
+    "watchAdTitle": "Watch ad for +1 reading",
+    "watchAdDesc": "Get 1 free reading after watching a short ad!",
+    "alreadyWatched": "Already watched today",
+    "comeTomorrow": "Available again tomorrow",
+    "pointsTitle": "Use points (20P)",
+    "pointsBalance": "{balance}P available",
+    "subscriptionTitle": "Premium Subscription",
+    "subscriptionDesc": "Unlimited readings ₩4,900/mo",
+    "tomorrowTitle": "Come back tomorrow",
+    "freeReadingsInfo": "3 free readings daily",
+    "confirmMessage": "Watch a 15-second ad to get 1 extra reading. Watch now?",
+    "alreadyWatchedAlert": "You already watched the rewarded ad today",
+    "errorMessage": "An error occurred. Please try again."
+  },
+  "share": {
+    "title": "Share Results",
+    "brandName": "Seraphina Tarot",
+    "nativeShareButton": "Share",
+    "copyButton": "Copy Text",
+    "downloadButton": "Save Image",
+    "shareText": "Seraphina Tarot Reading\n\n{cards}\n\n{reading}\n\nTry tarot reading too 👉 https://serapina.kr",
+    "shareTitle": "Seraphina Tarot Reading",
+    "copiedMessage": "Copied!"
+  },
+  "readingView": {
+    "appTitle": "Seraphina Tarot",
+    "appSubtitle": "AI Tarot Reader",
+    "homeButton": "Home",
+    "steps": {
+      "question": "Ask",
+      "cards": "Draw Cards",
+      "interpreting": "Reading",
+      "result": "Result"
+    },
+    "questionHeader": "What's on your mind?",
+    "questionSubheader": "Share your thoughts freely",
+    "drawCardsButton": "Draw Cards",
+    "examplesTitle": "Try asking these",
+    "resultSubtitle": "Tarot Reading Result",
+    "questionLabel": "Your Question",
+    "interpretationTitle": "Seraphina's Reading",
+    "interpretationSubtitle": "A tarot message just for you",
+    "premiumNudge": "Unlimited readings + No ads → Premium",
+    "anotherQuestion": "Ask Another Question",
+    "saveReading": "Save",
+    "saved": "Saved",
+    "viewSavedReadings": "View Saved Readings \u2192",
+    "shareResult": "Share Results",
+    "questionPlaceholder": "e.g., What does my crush think of me?",
+    "reversedTag": "Reversed",
+    "errors": {
+      "interpretFailed": "Sorry, something went wrong. Please try again!",
+      "premiumFailed": "Sorry, premium reading failed. Please try again!"
+    },
+    "categories": {
+      "love": "Love",
+      "career": "Career",
+      "money": "Money",
+      "study": "Study",
+      "health": "Health",
+      "other": "Other"
+    },
+    "examples": {
+      "love1": "What does my crush think of me?",
+      "love2": "Should I text them first?",
+      "love3": "I keep thinking about my ex",
+      "study1": "How will my exam results turn out?",
+      "friend1": "I feel like I'm drifting from my friend",
+      "career1": "Am I on the right career path?",
+      "money1": "How's my financial luck this year?",
+      "health1": "I'm worried about my health"
+    }
+  },
+  "savedReadings": {
+    "title": "Saved Readings",
+    "subtitle": "Revisit your precious tarot messages",
+    "filterAll": "All",
+    "filterFavorites": "Favorites",
+    "emptyTitle": "No saved readings yet",
+    "emptyDesc": "Save your readings after a tarot session to keep them here!",
+    "startReading": "Start Tarot Reading",
+    "detailTitle": "Reading Detail"
+  },
+  "loadingScreen": {
+    "messages": {
+      "reading": "Seraphina is reading your cards...",
+      "energy": "Feeling the card's energy...",
+      "starlight": "Starlight is illuminating the cards...",
+      "insight": "Gathering deep insights...",
+      "preparing": "Preparing a message just for you..."
+    },
+    "reversedBadge": "Reversed"
+  }
+}

@@ -1,0 +1,879 @@
+{
+  "app": {
+    "name": "セラフィナタロット"
+  },
+  "nav": {
+    "home": "ホーム",
+    "chat": "タロット占い",
+    "cards": "カードの意味",
+    "guides": "運勢ガイド",
+    "blog": "タロットストーリー",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "landing": {
+    "header": {
+      "appTitle": "💖 セラフィナタロット 💫",
+      "chatBtn": "タロット占い",
+      "cardsTitle": "カード辞典",
+      "guidesTitle": "占いガイド",
+      "blogTitle": "タロットストーリー"
+    },
+    "hero": {
+      "badge": "AIタロット占い師セラフィナ",
+      "title": "今日、星が\n語る物語",
+      "desc1": "心の中の質問を投げかけてみてください",
+      "desc2": "タロットカードが道を照らしてくれます",
+      "placeholder": "何でも聞いて！例：好きな人が私をどう思ってる？",
+      "cta": "無料タロット相談を始める",
+      "inputLabel": "または直接質問してみてください"
+    },
+    "socialProof": {
+      "readings": "50,000+",
+      "readingsLabel": "タロットリーディング数",
+      "satisfaction": "4.8/5",
+      "satisfactionLabel": "満足度",
+      "available": "24/7",
+      "availableLabel": "いつでも相談"
+    },
+    "categories": {
+      "love": "恋愛",
+      "career": "進路",
+      "money": "財運",
+      "study": "学業",
+      "health": "健康",
+      "other": "その他"
+    },
+    "todayCard": {
+      "label": "今日のカード",
+      "shareBtn": "共有"
+    },
+    "popular": {
+      "title": "今一番多く見られている悩み",
+      "views": "{count}人が見ました"
+    },
+    "topics": {
+      "title": "どんな悩みがありますか？",
+      "love": {
+        "name": "恋愛と人間関係",
+        "desc": "片思い、デート、別れ、復縁"
+      },
+      "career": {
+        "name": "仕事とキャリア",
+        "desc": "就職、転職、進路選択"
+      },
+      "study": {
+        "name": "学業と試験",
+        "desc": "試験準備、成績、進学"
+      },
+      "money": {
+        "name": "財運と投資",
+        "desc": "金運、財政管理、投資"
+      }
+    },
+    "info": {
+      "title": "セラフィナの特別な理由",
+      "cards": {
+        "title": "78枚の知恵",
+        "desc1": "メジャーアルカナとマイナーアルカナ78枚の",
+        "desc2": "象徴体系を通じて現在の状況を深く分析し、",
+        "desc3": "あなたに必要な明確な方向を提示します。"
+      },
+      "conversation": {
+        "title": "心地よい会話",
+        "desc1": "友達と話すようなリラックスした雰囲気で",
+        "desc2": "本音の悩みを分かち合えます。",
+        "desc3": "セラフィナがあなたの話を聞き、心からのアドバイスを届けます。"
+      },
+      "available": {
+        "title": "24時間いつでも",
+        "desc1": "早朝でも昼でも、悩みが生じたらいつでもお越しください。",
+        "desc2": "時間と場所にとらわれず、",
+        "desc3": "あなたが必要な瞬間、セラフィナがそばにいます。"
+      },
+      "easy": {
+        "title": "すぐに始められるタロット占い",
+        "desc1": "質問を入力してカードを選ぶと、",
+        "desc2": "AIが深いタロット解釈を提供します。",
+        "desc3": "毎日3回無料で利用できます。"
+      }
+    },
+    "arcana": {
+      "title": "タロットの世界",
+      "major": {
+        "title": "メジャーアルカナ",
+        "desc1": "人生の重要な転機と精神的な旅を象徴する22枚のカード。",
+        "desc2": "0番「愚者」から21番「世界」まで、",
+        "desc3": "人生の大きな流れと深い教訓が込められています。",
+        "btn": "メジャーアルカナを見る"
+      },
+      "minor": {
+        "title": "マイナーアルカナ",
+        "desc1": "日常の具体的な出来事と感情を扱う56枚のカード。",
+        "desc2": "ワンド（情熱）、カップ（感情）、ソード（理性）、ペンタクル（物質）",
+        "desc3": "4つのスートがあなたの日常を映し出します。",
+        "btn": "マイナーアルカナを見る"
+      }
+    },
+    "blog": {
+      "title": "こんな悩みもあります",
+      "desc": "様々な悩みと解釈を通じてタロットに親しみましょう。",
+      "viewAll": "すべてのストーリーを見る"
+    },
+    "finalCta": {
+      "title": "今すぐ始めましょう",
+      "desc": "あなたのストーリーを聞かせてください。セラフィナがカードを通じて答えを見つけます。",
+      "btn": "タロット占いを始める"
+    },
+    "footer": {
+      "cards": "カード辞典",
+      "guides": "運勢ガイド",
+      "blog": "タロットストーリー",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "copyright": "© 2025 セラフィナタロット. All rights reserved."
+    }
+  },
+  "chat": {
+    "appTitle": "セラフィナタロット",
+    "subtitle": "AIタロットリーダーセラフィナがあなたの悩みを聞きます",
+    "subtitleOffline": "オフラインモード（デモ版）",
+    "offlineChip": "オフライン",
+    "placeholder": "何か悩んでる？気軽に話してね...",
+    "devTools": "開発者ツール",
+    "offlineTest": "オフラインモードテスト",
+    "shareButton": "共有",
+    "header": {
+      "homeTitle": "ホーム",
+      "newChatTitle": "新しいチャット",
+      "historyTitle": "チャット履歴",
+      "infoTitle": "情報"
+    },
+    "theme": {
+      "title": "テーマ設定"
+    },
+    "drawer": {
+      "title": "メニュー",
+      "resources": {
+        "title": "タロット資料",
+        "cards": "タロットカードの意味",
+        "guides": "運勢別ガイド",
+        "blog": "タロット物語"
+      },
+      "language": {
+        "title": "言語設定"
+      },
+      "howTo": {
+        "title": "使い方",
+        "step1": "💬 気軽に悩みを話す",
+        "step2": "🎴 カード3枚を自分で選ぶ",
+        "step3": "✨ セラフィナの解釈を聞く"
+      },
+      "about": {
+        "title": "タロットについて",
+        "desc": "タロットは占いではなく、心を見つめる鏡です。答えを与えるのではなく、自分で答えを見つけるのを助けてくれます。",
+        "note1": "💡 タロットは参考程度に！最終決定はあなたがしてね。",
+        "note2": "同じ質問を繰り返すとカードも混乱しちゃう。"
+      },
+      "legal": {
+        "title": "法的情報",
+        "privacy": "プライバシーポリシー",
+        "terms": "利用規約",
+        "contact": "お問い合わせ"
+      },
+      "appInfo": {
+        "title": "アプリ情報",
+        "version": "v1.0.0",
+        "desc": "© 2025 セラフィナタロット. All rights reserved."
+      },
+      "feedbackBtn": "フィードバック送信",
+      "copyright": "© 2025 セラフィナタロット. All rights reserved."
+    },
+    "newChatButton": "やり直す",
+    "newChatConfirm": "新しいタロットリーディングを開始しますか？ 現在の会話内容が削除されます。",
+    "cardsSelected": "カード選択完了",
+    "shareTitle": "セラフィナ タロットリーディング結果",
+    "pullToRefresh": {
+      "pull": "下に引いて更新",
+      "release": "離して更新"
+    }
+  },
+  "cardPicker": {
+    "title": "カードを選んでください",
+    "selected": "選択済み",
+    "confirm": "選択完了",
+    "shuffle": "カードをシャッフル",
+    "reshuffleTitle": "再シャッフル",
+    "shuffling": "カードをシャッフル中~ 💫",
+    "shuffleWait": "ちょっと待って!",
+    "emptyMessage": "直感で惹かれるカードを選んで! 💕",
+    "reversedIndicator": "↻",
+    "selectedCount": "{selected}/{total}",
+    "nextHint": "{position}",
+    "remaining": "あと{count}枚選んでください"
+  },
+  "cards": {
+    "main": {
+      "title": "タロットカードでヒーリング",
+      "subtitle": "78枚のカードが伝える癒しと応援のメッセージ",
+      "majorTitle": "メジャーアルカナ",
+      "majorSubtitle": "人生の大きな流れ22枚",
+      "majorDescription": "愚者から世界まで、人生の旅を込めたカード。運命的な出会い、重要な決断、人生の転換点を教えてくれる!",
+      "majorCardCount": "22枚を見る",
+      "minorTitle": "マイナーアルカナ",
+      "minorSubtitle": "日常の物語56枚",
+      "minorDescription": "今日の気分、明日の計画、ささやかな幸せ。具体的な状況と実質的なアドバイスが込められている!",
+      "minorCardCount": "56枚を見る",
+      "suitsSectionTitle": "スートで探す",
+      "ctaIcon": "💬",
+      "ctaTitle": "私に打ち明けてみて!",
+      "ctaDescription": "恋愛、就職、試験...どんな悩みでも気軽に話して!カードで答えを見つけてあげる ✨",
+      "ctaButton": "セラフィナとチャットする"
+    },
+    "suits": {
+      "cups": {
+        "icon": "💖",
+        "name": "カップ",
+        "theme": "感情・愛・直感",
+        "description": "恋愛の悩み、感情のヒーリングが必要な時",
+        "element": "水の元素",
+        "fullDescription": "感情、関係、愛、直感を象徴する水の元素"
+      },
+      "pentacles": {
+        "icon": "💰",
+        "name": "ペンタクル",
+        "theme": "物質・財政・現実",
+        "description": "お金、職業、実質的な悩みに答える",
+        "element": "土の元素",
+        "fullDescription": "物質、財政、現実、健康を象徴する土の元素"
+      },
+      "swords": {
+        "icon": "⚡",
+        "name": "ソード",
+        "theme": "知性・論理・真実",
+        "description": "決断が必要な時、真実を知りたい時",
+        "element": "風の元素",
+        "fullDescription": "知性、論理、葛藤、真実を象徴する風の元素"
+      },
+      "wands": {
+        "icon": "✨",
+        "name": "ワンド",
+        "theme": "情熱・創造・インスピレーション",
+        "description": "新しく始めたい時、挑戦が必要な瞬間",
+        "element": "火の元素",
+        "fullDescription": "情熱、創造、行動、インスピレーションを象徴する火の元素"
+      }
+    },
+    "majorArcana": {
+      "title": "メジャーアルカナ",
+      "subtitle": "22枚の精神的な旅",
+      "introText": "メジャーアルカナは0番「愚者」から21番「世界」まで22枚。人生の大きな転換点を示してくれる!",
+      "ctaTitle": "メジャーアルカナでタロット占い",
+      "ctaDescription": "重要な決断をする時にヒントをもらおう",
+      "ctaButton": "タロット占いを始める!"
+    },
+    "minorArcana": {
+      "title": "マイナーアルカナ",
+      "subtitle": "日常のさまざまな状況と感情を象徴する56枚のカード",
+      "introText": "マイナーアルカナは日常生活のさまざまな状況と感情を示してくれる!カップ、ペンタクル、ソード、ワンドの4つのスートで構成され、各スートはエースから10までの数字カードとペイジ、ナイト、クイーン、キングの宮廷カードがある。",
+      "cupsDesc": "感情、関係、愛、直感、創造性",
+      "pentaclesDesc": "物質、財政、現実、健康、安定性",
+      "swordsDesc": "知性、論理、葛藤、真実、コミュニケーション",
+      "wandsDesc": "情熱、創造、行動、インスピレーション、成長",
+      "structureTitle": "カード構成",
+      "numberCardsTitle": "数字カード (Ace - 10)",
+      "numberCardsDesc": "各スート別にエースから10まで10枚のカード",
+      "numberCardsAce": "エース:",
+      "numberCardsAceDesc": "新しい始まり、潜在力",
+      "numberCards24": "2-4:",
+      "numberCards24Desc": "初期発展段階",
+      "numberCards57": "5-7:",
+      "numberCards57Desc": "挑戦と成長",
+      "numberCards810": "8-10:",
+      "numberCards810Desc": "完成と結果",
+      "courtCardsTitle": "宮廷カード",
+      "courtCardsDesc": "各スート別に4枚の人物カード",
+      "courtCardsPage": "ペイジ:",
+      "courtCardsPageDesc": "メッセージ、学習、始まり",
+      "courtCardsKnight": "ナイト:",
+      "courtCardsKnightDesc": "行動、動き、追求",
+      "courtCardsQueen": "クイーン:",
+      "courtCardsQueenDesc": "養育、内面的熟達",
+      "courtCardsKing": "キング:",
+      "courtCardsKingDesc": "権威、外面的熟達",
+      "ctaTitle": "日常の悩みを解決したい?",
+      "ctaDescription": "マイナーアルカナがあなたの日常の悩みに具体的なアドバイスをしてくれる!",
+      "ctaButton": "タロット占いを始める!"
+    },
+    "suitDetail": {
+      "ctaTitle": "でタロットリーディング",
+      "ctaDescription": "のカードのメッセージを受け取ろう!",
+      "notFound": {
+        "title": "カードが見つかりません"
+      }
+    },
+    "detail": {
+      "noCard": "カードなし",
+      "descriptionTitle": "カードの説明",
+      "uprightTitle": "正位置の意味",
+      "reversedTitle": "逆位置の意味",
+      "infoTitle": "カード情報",
+      "keywordsTitle": "キーワード",
+      "categoryLabel": "カテゴリー",
+      "suitLabel": "スート",
+      "elementLabel": "元素",
+      "ctaTitle": "{cardName}でタロットリーディング",
+      "ctaDescription": "{cardName}のメッセージを一緒に深く知ろう!",
+      "ctaButton": "タロットリーディング開始!",
+      "notFoundTitle": "カードが見つかりません",
+      "backButton": "カード辞典に戻る",
+      "inlineCta": "{cardName}カードの意味が気になりますか？今すぐタロットリーディングを受けてみましょう",
+      "relatedTitle": "関連カード",
+      "shareLabel": "このカードを友達にシェアしましょう",
+      "shareButton": "シェア",
+      "copyLinkButton": "リンクコピー",
+      "linkCopied": "リンクがコピーされました！"
+    },
+    "suit": {
+      "noCard": "カードなし",
+      "startReadingButton": "タロットリーディング開始!",
+      "backButton": "カード辞典に戻る"
+    }
+  },
+  "guides": {
+    "main": {
+      "title": "タロット運勢ガイド",
+      "subtitle": "お悩み別にタロットを上手に活用するコツ大公開！ 🍯",
+      "basicTips": "タロットリーディング基本ティップス",
+      "viewMore": "もっと見る"
+    },
+    "love": {
+      "title": "恋愛運タロット",
+      "subtitle": "愛と関係の流れを読む",
+      "cardTitle": "恋愛運勢ガイド",
+      "cardSubtitle": "好きな人いる？じゃあこれ見て！",
+      "description": "片思い、微妙な関係、別れ... 恋愛の悩みはタロットに聞いて！カードで答えを見つけよう。",
+      "detailPage": {
+        "title": "恋愛運勢タロットガイド",
+        "subtitle": "愛と関係についてのタロットリーディング完全ガイド",
+        "keywordsTitle": "恋愛運勢主要キーワード",
+        "ctaTitle": "恋愛運勢タロット開始！",
+        "ctaText": "一緒に恋愛の悩みを解決しよう！",
+        "ctaButton": "今すぐ始める",
+        "blogTitle": "💕 恋愛の悩みタロットストーリー",
+        "blogSubtitle": "友達の実際の恋愛の悩みをタロットで解決！",
+        "faqTitle": "よくある質問",
+        "readingCta": "恋愛運勢タロットリーディング！",
+        "readingCtaDesc": "一緒に恋愛の悩みを解決しよう！ ✨",
+        "readingCtaButton": "タロットリーディングを始める"
+      }
+    },
+    "career": {
+      "title": "仕事運タロット",
+      "subtitle": "キャリアと成功への道を探す",
+      "cardTitle": "職業運勢ガイド",
+      "cardSubtitle": "就職・進路の悩み？ここで解決！",
+      "description": "面接、転職、昇進... 仕事の悩みはタロットに！キャリアのヒントをあげる。",
+      "detailPage": {
+        "title": "職業運勢タロットガイド",
+        "subtitle": "キャリアと成功についてのタロットリーディング完全ガイド",
+        "keywordsTitle": "職業運勢主要キーワード",
+        "ctaTitle": "職業運勢タロット開始！",
+        "ctaText": "一緒にキャリアの悩みを解決しよう！",
+        "ctaButton": "今すぐ始める",
+        "blogTitle": "💼 進路の悩みタロットストーリー",
+        "blogSubtitle": "友達の実際の進路の悩みをタロットで解決！",
+        "goodCardsTitle": "職業運の良いカード",
+        "readingCta": "職業運勢タロットリーディング！",
+        "readingCtaDesc": "一緒にキャリアの悩みを解決しよう！ ✨",
+        "readingCtaButton": "タロットリーディングを始める"
+      }
+    },
+    "study": {
+      "title": "学業運タロット",
+      "subtitle": "勉強と試験の運を確認",
+      "cardTitle": "学業運勢ガイド",
+      "cardSubtitle": "試験うまくいく？成績上がる？",
+      "description": "試験、成績、進路... 学業の悩みはタロットに！勉強のヒントをあげる。",
+      "detailPage": {
+        "title": "学業運勢タロットガイド",
+        "subtitle": "試験、成績、勉強... 学業の悩みをタロットで解決！",
+        "keywordsTitle": "学業運勢主要キーワード",
+        "ctaTitle": "学業運勢タロット開始！",
+        "ctaText": "一緒に学業の悩みを解決して成績を上げよう！",
+        "ctaButton": "今すぐ始める",
+        "blogTitle": "📚 学業の悩みタロットストーリー",
+        "blogSubtitle": "友達の実際の学業の悩みをタロットで解決！",
+        "goodCardsTitle": "学業運の良いカード",
+        "readingCta": "学業運勢タロットリーディング！",
+        "readingCtaDesc": "試験運から進路まで一緒に悩みを解決しよう！ 📚✨",
+        "readingCtaButton": "タロットリーディングを始める"
+      }
+    },
+    "money": {
+      "title": "金運タロット",
+      "subtitle": "財産とお金の流れを知る",
+      "cardTitle": "金銭運勢ガイド",
+      "cardSubtitle": "お金貯められる？資産運用の悩み！",
+      "description": "財運、投資、副業... お金の悩みはタロットに！資産運用のヒントをあげる。",
+      "detailPage": {
+        "title": "金銭運勢タロットガイド",
+        "subtitle": "お金、財産、投資... 財政の悩みをタロットで解決！",
+        "keywordsTitle": "金銭運勢主要キーワード",
+        "ctaTitle": "金銭運勢タロット開始！",
+        "ctaText": "一緒に財運を上げてお金を貯めよう！",
+        "ctaButton": "今すぐ始める",
+        "blogTitle": "💰 金銭の悩みタロットストーリー",
+        "blogSubtitle": "友達の実際のお金管理の悩みをタロットで解決！",
+        "goodCardsTitle": "金運の良いカード",
+        "readingCta": "金銭運勢タロットリーディング！",
+        "readingCtaDesc": "財運から投資まで一緒に悩みを解決しよう！ 💰✨",
+        "readingCtaButton": "タロットリーディングを始める"
+      }
+    },
+    "topics": {
+      "love": [
+        "片思い成功可能性",
+        "相手の本音",
+        "告白タイミング",
+        "別れた後の復縁",
+        "相手の気持ち確認"
+      ],
+      "career": [
+        "就職運＆面接合格",
+        "転職タイミング",
+        "昇進・給与交渉",
+        "起業・副業成功",
+        "職場人間関係"
+      ],
+      "study": [
+        "試験運＆成績向上",
+        "勉強集中力",
+        "入試・進路選択",
+        "自分だけの学習法",
+        "ストレス解消"
+      ],
+      "money": [
+        "財運＆金運",
+        "投資・資産運用タイミング",
+        "副業・アルバイト成功",
+        "貯蓄＆消費習慣",
+        "経済的自立"
+      ]
+    },
+    "cta": {
+      "icon": "",
+      "title": "私に打ち明けて！",
+      "description": "恋愛、仕事、学業、お金... 何でも気軽に話して！カードで答えを見つけよう ✨",
+      "button": "セラフィナと会話する ✨"
+    },
+    "common": {
+      "startButton": "今すぐ始める",
+      "readingButton": "タロットリーディングを始める",
+      "readMore": "続きを読む →"
+    },
+    "basicTips": {
+      "sectionTitle": "タロットリーディングの基本ヒント",
+      "question": {
+        "icon": "❓",
+        "title": "質問の仕方!",
+        "description": "漠然とした質問より具体的な質問の方がずっと良い!",
+        "badExample": "悪い例:",
+        "badExampleText": "\"付き合えますか?\"",
+        "goodExample": "良い例:",
+        "goodExampleText": "\"相手の心を掴むにはどうすればいい?\"",
+        "tip": "ヒント:",
+        "tipText": "具体的な時期や状況を入れるとより正確!"
+      },
+      "interpretation": {
+        "icon": "🎴",
+        "title": "カード解釈のヒント",
+        "description": "難しく考えないで!感覚が一番大事。",
+        "upright": "正位置:",
+        "uprightText": "エネルギーが活発",
+        "reversed": "逆位置:",
+        "reversedText": "エネルギーが弱い",
+        "tip": "ヒント:",
+        "tipText": "3枚の流れで見るとストーリーが完成!"
+      },
+      "timing": {
+        "icon": "⏰",
+        "title": "タロットを見るタイミング",
+        "description": "いつでもいいわけじゃない!同じ質問を1日10回?それはNo!",
+        "good": "Good:",
+        "goodText": "重要な決断の前、心が落ち着いている時",
+        "bad": "Bad:",
+        "badText": "感情的な時、お酒を飲んだ後",
+        "tip": "ヒント:",
+        "tipText": "同じ質問は1-2週間の間隔で!"
+      },
+      "usage": {
+        "icon": "💡",
+        "title": "日常での活用法",
+        "description": "恋愛運だけ?No!タロットは毎日使える。",
+        "daily": "毎日:",
+        "dailyText": "今日のカードで運勢チェック",
+        "weekly": "週間:",
+        "weeklyText": "今週のイベントを先取り",
+        "choice": "選択:",
+        "choiceText": "A vs Bで迷った時に決断!"
+      }
+    }
+  },
+  "blog": {
+    "list": {
+      "title": "✨ タロット物語 💫",
+      "subtitle": "友達の実際の悩みをタロットで解決!",
+      "readMore": "もっと見る →"
+    },
+    "post": {
+      "viewCount": "回閲覧",
+      "situationTitle": "状況",
+      "cardsTitle": "引いたカード",
+      "cardLabels": [
+        "過去",
+        "現在",
+        "未来"
+      ],
+      "interpretationTitle": "解釈",
+      "adviceTitle": "アドバイス",
+      "categoryTitle": "カテゴリー",
+      "tagsTitle": "タグ",
+      "relatedCardsTitle": "関連カード",
+      "ctaSidebarTitle": "私もタロットを見てみたい?",
+      "ctaSidebarText": "AIタロットリーダーセラフィナと一緒に悩みを解決しよう!",
+      "ctaMainTitle": "あなたの悩みもタロットで解決してみない?",
+      "ctaMainText": "セラフィナがあなたの話を聞いてあげる!",
+      "startNowButton": "今すぐ始める",
+      "startReadingButton": "タロットリーディング開始",
+      "backButton": "リストに戻る",
+      "loading": "ポスト読み込み中...",
+      "notFoundTitle": "ポストが見つかりません",
+      "loadError": "ポストの読み込みに失敗しました。",
+      "shareTitle": "この記事をシェア",
+      "shareButton": "シェア",
+      "copyLinkButton": "リンクコピー",
+      "linkCopied": "リンクがコピーされました！",
+      "inlineCtaText": "あなたもタロットで悩みを解決",
+      "inlineCtaButton": "無料タロット相談を始める"
+    }
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "subtitle": "セラフィナタロットサービス",
+    "lastUpdated": "最終更新日"
+  },
+  "terms": {
+    "title": "利用規約",
+    "subtitle": "セラフィナタロットサービス",
+    "lastUpdated": "最終更新日"
+  },
+  "footer": {
+    "about": "セラフィナタロットについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "copyright": "© 2025 セラフィナタロット. All rights reserved."
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "more": "もっと見る"
+  },
+  "legal": {
+    "privacy": {
+      "title": "個人情報保護方針",
+      "subtitle": "セラフィナタロットサービス"
+    },
+    "terms": {
+      "title": "サービス利用規約",
+      "subtitle": "セラフィナタロットサービス"
+    }
+  },
+  "feedback": {
+    "title": "フィードバック送信",
+    "subtitle": "貴重なご意見をお聞かせください!",
+    "ratingTitle": "満足度を教えてください!",
+    "categoriesTitle": "どんな点が良かったですか?",
+    "commentTitle": "他に伝えたいことは?",
+    "commentPlaceholder": "改善してほしい点や追加意見を自由に書いてください！(任意)",
+    "contactTitle": "返信用連絡先 (任意)",
+    "contactPlaceholder": "メールまたはSNSアカウント(返信が必要な場合のみ)",
+    "thankYouTitle": "ありがとう! 💕",
+    "thankYouMessage": "あなたのフィードバックがセラフィナを成長させます!",
+    "closeButton": "閉じる"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "どのようなご用件でしょうか?",
+    "typeLabel": "お問い合わせの種類",
+    "nameLabel": "お名前",
+    "optional": "(任意)",
+    "namePlaceholder": "お名前を入力してください (任意)",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "返信用のメールアドレスを入力してください",
+    "messageLabel": "お問い合わせ内容",
+    "messagePlaceholder": "ご質問やご意見を自由に入力してください",
+    "infoText": "貴重なご意見ありがとうございます。できるだけ早くご返信いたします!",
+    "thankYouTitle": "お問い合わせを受け付けました! 📧",
+    "thankYouMessage": "できるだけ早くご返信いたします!",
+    "closeButton": "閉じる"
+  },
+  "components": {
+    "readingHistory": {
+      "title": "タロット解釈記録",
+      "subtitle": "最近5件の解釈結果",
+      "loading": "記録を読み込み中...",
+      "error": "記録を読み込めません",
+      "retryButton": "再試行",
+      "emptyTitle": "まだ記録がありません",
+      "emptySubtitle": "最初のタロット占いを受けてみよう!",
+      "cardsCount": "枚"
+    },
+    "offlineCard": {
+      "title": "オフラインモード",
+      "subtitle": "インターネット接続が必要です",
+      "message1": "現在インターネットに接続されていないため",
+      "message2": "セラフィナが直接解釈することはできませんが...",
+      "message3": "✨ 代わりに今日のカードを1枚引いてみますか?",
+      "drawButton": "カードを引く",
+      "drawHint": "カードがあなたに伝えるメッセージを確認してください",
+      "resultTitle": "🌟 あなたのカード",
+      "keywordsTitle": "💫 主要キーワード",
+      "redrawButton": "別のカードを引く"
+    },
+    "feedback": {
+      "title": "フィードバック送信",
+      "subtitle": "貴重なご意見をお聞かせください!",
+      "ratingTitle": "満足度を教えてください!",
+      "categoriesTitle": "どんな点が良かったですか?",
+      "commentTitle": "他に伝えたいことは?",
+      "commentPlaceholder": "改善してほしい点や追加意見を自由に書いてください！(任意)",
+      "contactTitle": "返信用連絡先 (任意)",
+      "contactPlaceholder": "メールまたはSNSアカウント(返信が必要な場合のみ)",
+      "submitButton": "送信",
+      "closeButton": "閉じる",
+      "thankYouTitle": "ありがとう! 💕",
+      "thankYouMessage": "あなたのフィードバックがセラフィナを成長させます!",
+      "categories": {
+        "comforting": "温かい慰め",
+        "accurate": "正確な分析",
+        "insightful": "新しい視点",
+        "friendly": "親切な言葉遣い",
+        "easyToUse": "使いやすい"
+      },
+      "ratingLabels": {
+        "1": "とても残念... 改善が必要です 😥",
+        "2": "少し残念。もっと頑張ります! 🤔",
+        "3": "普通です。まあまあでした 😐",
+        "4": "気に入りました! かなり満足 😊",
+        "5": "最高! 大好きです 😍",
+        "default": "星をタップして評価してください!"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "何をお手伝いしましょうか?",
+      "categoryTitle": "お問い合わせ種類",
+      "emailTitle": "メールアドレス",
+      "emailPlaceholder": "返信用のメールアドレスを入力してください",
+      "messageTitle": "お問い合わせ内容",
+      "messagePlaceholder": "質問や意見を自由に書いてください",
+      "submitButton": "送信",
+      "closeButton": "閉じる",
+      "thankYouTitle": "お問い合わせ完了! 📧",
+      "thankYouMessage": "できるだけ早くご返信いたします!",
+      "categories": {
+        "feedback": "フィードバック",
+        "bug": "エラー報告",
+        "partnership": "広告/提携",
+        "other": "その他"
+      },
+      "validation": {
+        "required": "必須項目です。",
+        "invalidEmail": "有効なメールアドレスを入力してください。"
+      }
+    }
+  },
+  "seo": {
+    "appName": "セラフィナタロット",
+    "cards": {
+      "title": "タロットカードで癒しを - 78枚完全解説 | セラフィナタロット",
+      "description": "メジャーアルカナ22枚とマイナーアルカナ56枚、全78枚のタロットカードで癒されましょう。",
+      "keywords": "タロットカード, タロット癒し, メジャーアルカナ, マイナーアルカナ, タロット解釈"
+    },
+    "cardDetail": {
+      "titleTemplate": "{cardName} タロットカードの意味 | セラフィナタロット",
+      "descriptionTemplate": "{cardName} タロットカードの正位置、逆位置の意味を詳しく解説します。{description}",
+      "keywordsTemplate": "{cardName}, タロット, {category}, {keywords}",
+      "fallbackTitle": "タロットカード | セラフィナタロット",
+      "fallbackDescription": "タロットカード詳細情報",
+      "fallbackKeywords": "タロットカード"
+    },
+    "cardsSuit": {
+      "titleTemplate": "{suitName} タロットカード完全解説 | セラフィナタロット",
+      "descriptionTemplate": "{suitName} 14枚の意味を詳しく解説します。{description}に該当するタロットカードを学びましょう。",
+      "keywordsTemplate": "{suitName}, タロット, {element}, マイナーアルカナ",
+      "fallbackTitle": "タロットカード | セラフィナタロット",
+      "fallbackDescription": "タロットカード情報",
+      "fallbackKeywords": "タロットカード"
+    },
+    "guides": {
+      "title": "タロット運勢ガイド - 恋愛運、仕事運、学業運、金運 | セラフィナタロット",
+      "description": "片思い、別れ、就職、試験、財運など様々な状況でのタロット占いガイドを提供します。",
+      "keywords": "タロット運勢, 恋愛運, 仕事運, 学業運, 金運, タロットガイド"
+    },
+    "blog": {
+      "listTitle": "タロット物語 - 実際のタロット相談事例 | セラフィナタロット",
+      "listDescription": "恋愛、友情、進路、家族、学業の悩みをタロットで解決した実際の物語。",
+      "listKeywords": "片思いタロット, 別れタロット, 進路タロット, タロット事例, タロット物語, タロット解釈, 無料タロット"
+    }
+  },
+  "subscription": {
+    "title": "プレミアム購読",
+    "currentBadge": "プレミアム利用中",
+    "benefitsTitle": "プレミアム特典",
+    "discountBadge": "33%割引",
+    "monthlyPayment": "月額決済",
+    "selectPlan": "プランを選択してください",
+    "payButton": "₩{price}で決済する",
+    "notice1": "購読は決済日から開始され、期間満了前にいつでも解約できます。",
+    "notice2": "既に購読中の場合、残りの期間に追加で延長されます。",
+    "benefits": {
+      "unlimited": "無制限タロット相談",
+      "unlimitedHistory": "相談記録無制限保存",
+      "noAds": "広告なしのすっきり体験",
+      "premiumSpreads": "プレミアムタロットスプレッド"
+    },
+    "errors": {
+      "systemSetup": "決済システムの設定が必要です",
+      "paymentFailed": "決済中にエラーが発生しました"
+    }
+  },
+  "ad": {
+    "specialOfferTitle": "✨ 特別特典 💫",
+    "specialOfferSubtitle": "セラフィナからのプレゼント！",
+    "premiumTitle": "プレミアムタロット相談",
+    "premiumDescription": "より深いタロット解釈と無制限相談が必要ですか？<br>今すぐプレミアム会員登録して特別な特典を受けましょう！",
+    "benefits": {
+      "unlimited": "無制限タロット相談",
+      "unlimitedHistory": "相談記録無制限保存",
+      "noAds": "広告なしのすっきり体験",
+      "premiumSpreads": "プレミアムタロットスプレッド"
+    },
+    "originalPrice": "₩9,900",
+    "discountedPrice": "₩4,900/月",
+    "discountLabel": "🎉 初月50%割引！",
+    "laterButton": "また今度",
+    "signUpButton": "プレミアム登録 ✨"
+  },
+  "rewardedAd": {
+    "title": "今日の無料相談を使い切りました",
+    "subtitle": "以下の方法で追加相談を受けましょう！",
+    "watchAdTitle": "広告を見て1回追加",
+    "watchAdDesc": "短い広告視聴後、リーディング1回無料！",
+    "alreadyWatched": "今日は視聴済み",
+    "comeTomorrow": "明日また利用できます",
+    "pointsTitle": "ポイントで追加（20P）",
+    "pointsBalance": "保有 {balance}P",
+    "subscriptionTitle": "プレミアム購読",
+    "subscriptionDesc": "無制限相談 月₩4,900",
+    "tomorrowTitle": "また明日来ます",
+    "freeReadingsInfo": "毎日3回無料リーディング",
+    "confirmMessage": "15秒の広告を見るとリーディング1回が追加されます。視聴しますか？",
+    "alreadyWatchedAlert": "今日はすでにリワード広告を視聴しました",
+    "errorMessage": "エラーが発生しました。もう一度お試しください。"
+  },
+  "share": {
+    "title": "結果を共有する",
+    "brandName": "セラフィナタロット",
+    "nativeShareButton": "共有する",
+    "copyButton": "テキストコピー",
+    "downloadButton": "画像保存",
+    "shareText": "セラフィナタロットリーディング\n\n{cards}\n\n{reading}\n\n私もタロットを見に行く 👉 https://serapina.kr",
+    "shareTitle": "セラフィナタロットリーディング",
+    "copiedMessage": "コピーしました！"
+  },
+  "readingView": {
+    "appTitle": "セラフィナタロット",
+    "appSubtitle": "AIタロット相談師",
+    "homeButton": "ホームへ",
+    "steps": {
+      "question": "質問する",
+      "cards": "カードを引く",
+      "interpreting": "解釈中",
+      "result": "結果を見る"
+    },
+    "questionHeader": "何が気になりますか？",
+    "questionSubheader": "心の中の悩みを自由に打ち明けてください",
+    "drawCardsButton": "カードを引きに行く",
+    "examplesTitle": "こんな質問はいかがですか？",
+    "resultSubtitle": "タロットリーディング結果",
+    "questionLabel": "あなたの質問",
+    "interpretationTitle": "セラフィナの解釈",
+    "interpretationSubtitle": "あなただけのタロットメッセージ",
+    "premiumNudge": "無制限リーディング + 広告なし → プレミアム",
+    "anotherQuestion": "他の質問をする",
+    "saveReading": "保存する",
+    "saved": "保存済み",
+    "viewSavedReadings": "保存したリーディングを見る \u2192",
+    "shareResult": "結果を共有する",
+    "questionPlaceholder": "例：好きな人が私をどう思っているか？",
+    "reversedTag": "逆位置",
+    "errors": {
+      "interpretFailed": "申し訳ありません、解釈中に問題が発生しました。もう一度お試しください！",
+      "premiumFailed": "申し訳ありません、プレミアム解釈中に問題が発生しました。もう一度お試しください！"
+    },
+    "categories": {
+      "love": "恋愛",
+      "career": "進路",
+      "money": "財運",
+      "study": "学業",
+      "health": "健康",
+      "other": "その他"
+    },
+    "examples": {
+      "love1": "好きな人が私をどう思っているか？",
+      "love2": "好きな人に先に連絡してもいい？",
+      "love3": "元恋人が忘れられない",
+      "study1": "今回の試験結果はどうなる？",
+      "friend1": "友達と疎遠になった気がする",
+      "career1": "今の仕事が正しい方向か？",
+      "money1": "今年の金運はどう？",
+      "health1": "健康が心配です"
+    }
+  },
+  "savedReadings": {
+    "title": "保存したリーディング",
+    "subtitle": "大切なタロットメッセージをもう一度",
+    "filterAll": "すべて",
+    "filterFavorites": "お気に入り",
+    "emptyTitle": "保存したリーディングはありません",
+    "emptyDesc": "タロット相談後、「保存する」を押してリーディングを保管しましょう！",
+    "startReading": "タロット相談を始める",
+    "detailTitle": "リーディング詳細"
+  },
+  "loadingScreen": {
+    "messages": {
+      "reading": "セラフィナがカードを読んでいます...",
+      "energy": "カードのエネルギーを感じています...",
+      "starlight": "星の光がカードを照らしています...",
+      "insight": "深い洞察を整理しています...",
+      "preparing": "あなただけのメッセージを準備中です..."
+    },
+    "reversedBadge": "逆位置"
+  }
+}

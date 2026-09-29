@@ -1,0 +1,21 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+httpx>=0.27.0
+pydantic>=2.9.0
+aiomysql==0.2.0
+sqlalchemy==2.0.23
+python-dotenv==1.0.0
+cryptography==43.0.0
+pymysql==1.1.0
+greenlet==3.0.3
+# chromadb 0.4.22가 numpy 2.0에서 없어진 np.float_를 써서 numpy 2.x가 깔리면 import가 실패한다.
+# main.py에서 그 실패가 조용히 삼켜져 RAG가 꺼진 채로 돌았다.
+numpy<2
+chromadb==0.4.22
+sentence-transformers==2.3.1
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+pytz==2024.1
+ollama==0.4.6
+anthropic==0.71.0
+PyJWT==2.8.0
