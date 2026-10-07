@@ -1,0 +1,879 @@
+{
+  "app": {
+    "name": "세라피나 타로"
+  },
+  "nav": {
+    "home": "홈",
+    "chat": "타로 상담",
+    "cards": "카드 사전",
+    "guides": "상담 가이드",
+    "blog": "타로 이야기",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관"
+  },
+  "landing": {
+    "header": {
+      "appTitle": "세라피나 타로",
+      "chatBtn": "타로 상담",
+      "cardsTitle": "카드 사전",
+      "guidesTitle": "운세 가이드",
+      "blogTitle": "타로 이야기"
+    },
+    "hero": {
+      "badge": "마음 따뜻한 친구 · 세라피나",
+      "title": "또 너답게 곱씹고 있었지.\n그래도 와줘서 고마워.",
+      "desc1": "다 이해받고 싶은 거 알아.",
+      "desc2": "카드 한 장 펴놓고\n같이 들여다보자.",
+      "placeholder": "예) 좋아하는 사람이 날 어떻게 생각할까?",
+      "cta": "한 줄 적어볼래?",
+      "inputLabel": "또는 바로 물어봐"
+    },
+    "socialProof": {
+      "readings": "78장",
+      "readingsLabel": "타로 카드",
+      "satisfaction": "무제한 가능",
+      "satisfactionLabel": "무료 상담",
+      "available": "24시간",
+      "availableLabel": "언제든 상담"
+    },
+    "categories": {
+      "love": "연애",
+      "career": "진로",
+      "money": "재물",
+      "study": "학업",
+      "health": "건강",
+      "other": "기타"
+    },
+    "todayCard": {
+      "label": "오늘의 카드",
+      "shareBtn": "공유하기"
+    },
+    "popular": {
+      "title": "다른 친구들은 이런 고민을 했어",
+      "views": "{count}명이 봤어"
+    },
+    "topics": {
+      "title": "고민의 주제",
+      "love": {
+        "name": "사랑과 관계",
+        "desc": "짝사랑, 썸, 이별, 재회"
+      },
+      "career": {
+        "name": "진로와 꿈",
+        "desc": "진로 선택, 적성 찾기, 미래 계획"
+      },
+      "study": {
+        "name": "학업과 시험",
+        "desc": "시험 준비, 성적, 진학"
+      },
+      "money": {
+        "name": "재물과 용돈",
+        "desc": "재물운, 용돈 관리, 경제 독립"
+      }
+    },
+    "info": {
+      "title": "세라피나는 이런 친구야",
+      "cards": {
+        "title": "78장으로 너를 비춰",
+        "desc1": "78장 카드가 너의 지금을 비춰줘.",
+        "desc2": "단순한 점이 아니라",
+        "desc3": "네가 이미 아는 걸 꺼내주는 거지."
+      },
+      "conversation": {
+        "title": "친구처럼 들어줘",
+        "desc1": "정답 강요 X, 평가 X.",
+        "desc2": "그냥 네 옆에 앉아",
+        "desc3": "끝까지 들어주는 친구야."
+      },
+      "available": {
+        "title": "24시간 깨어 있어",
+        "desc1": "새벽 3시도, 점심도 OK.",
+        "desc2": "마음 무거울 때 그냥 와.",
+        "desc3": "기다리고 있을게."
+      },
+      "easy": {
+        "title": "바로 시작 가능",
+        "desc1": "질문 한 줄 + 카드 한 장.",
+        "desc2": "그게 다야. 어렵지 않아.",
+        "desc3": "오늘 한번 풀어볼래?"
+      }
+    },
+    "arcana": {
+      "title": "타로 카드",
+      "major": {
+        "title": "메이저 아르카나",
+        "desc1": "인생의 중요한 전환점을 상징하는 22장의 카드.",
+        "desc2": "0번 바보부터 21번 세계까지, 삶의 큰 흐름과 교훈을 담고 있어.",
+        "desc3": "",
+        "btn": "메이저 아르카나 보기"
+      },
+      "minor": {
+        "title": "마이너 아르카나",
+        "desc1": "일상의 구체적인 사건과 감정을 다루는 56장의 카드.",
+        "desc2": "네 가지 슈트가 너의 일상을 비춰줘.",
+        "desc3": "",
+        "btn": "마이너 아르카나 보기"
+      }
+    },
+    "blog": {
+      "title": "이런 고민도 있어요",
+      "desc": "다양한 고민과 해석을 통해 타로와 더 가까워져.",
+      "viewAll": "모든 이야기 보기"
+    },
+    "finalCta": {
+      "title": "이제 네 차례야",
+      "desc": "한 줄만 적어봐.\n그게 너답고 충분해.",
+      "btn": "타로 풀어보기"
+    },
+    "footer": {
+      "cards": "카드 사전",
+      "guides": "상담 가이드",
+      "blog": "타로 이야기",
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관",
+      "copyright": "© 2026 세라피나 타로. All rights reserved."
+    }
+  },
+  "chat": {
+    "appTitle": "세라피나 타로",
+    "subtitle": "한 줄만 적어봐. 끝까지 들어줄게.",
+    "subtitleOffline": "오프라인 모드 (체험판)",
+    "offlineChip": "오프라인",
+    "placeholder": "어떤 고민이 있어? 편하게 말해봐...",
+    "devTools": "개발자 도구",
+    "offlineTest": "오프라인 모드 테스트",
+    "shareButton": "공유",
+    "newChatButton": "다시 시작하기",
+    "newChatConfirm": "새로운 타로 리딩을 시작할까? 현재 대화 내용이 사라져.",
+    "cardsSelected": "카드 선택 완료",
+    "shareTitle": "세라피나 타로 리딩 결과\n\n",
+    "pullToRefresh": {
+      "pull": "아래로 당겨서 새로고침",
+      "release": "놓으면 새로고침"
+    },
+    "header": {
+      "homeTitle": "홈",
+      "newChatTitle": "새 대화",
+      "historyTitle": "대화 기록",
+      "infoTitle": "정보"
+    },
+    "theme": {
+      "title": "테마 설정"
+    },
+    "drawer": {
+      "title": "메뉴",
+      "resources": {
+        "title": "타로 자료실",
+        "cards": "타로 카드 의미",
+        "guides": "운세별 가이드",
+        "blog": "타로 이야기"
+      },
+      "language": {
+        "title": "언어 설정"
+      },
+      "howTo": {
+        "title": "사용 방법",
+        "step1": "💬 편하게 고민 이야기하기",
+        "step2": "🎴 마음에 드는 카드 뽑기",
+        "step3": "✨ 세라피나의 해석 확인하기"
+      },
+      "about": {
+        "title": "타로란?",
+        "desc": "타로는 점괘가 아니라 마음을 비추는 거울이야. 정답을 주기보다 스스로 답을 찾도록 도와주거든.",
+        "note1": "💡 타로는 참고용! 최종 결정은 네 몫이야.",
+        "note2": "같은 질문을 너무 자주 반복하면 카드도 헷갈려해."
+      },
+      "legal": {
+        "title": "법적 정보",
+        "privacy": "개인정보처리방침",
+        "terms": "이용약관",
+        "contact": "문의하기"
+      },
+      "appInfo": {
+        "title": "앱 정보",
+        "version": "v1.0.0",
+        "desc": "© 2026 세라피나 타로. All rights reserved."
+      },
+      "feedbackBtn": "피드백 보내기",
+      "copyright": "© 2026 세라피나 타로. All rights reserved."
+    }
+  },
+  "cardPicker": {
+    "title": "카드를 골라봐",
+    "selected": "선택됨",
+    "confirm": "선택 완료",
+    "shuffle": "카드 섞기",
+    "reshuffleTitle": "다시 섞기",
+    "shuffling": "카드를 섞고 있어... 💫",
+    "shuffleWait": "잠깐만 기다려!",
+    "emptyMessage": "너의 직감을 믿고, 마음이 끌리는 카드를 골라봐. 💕",
+    "reversedIndicator": "↻",
+    "selectedCount": "{selected}/{total}",
+    "nextHint": "{position}",
+    "remaining": "{count}장 더 골라봐"
+  },
+  "cards": {
+    "main": {
+      "title": "타로 카드 사전",
+      "subtitle": "78장의 카드가 전하는 지혜의 메시지",
+      "majorTitle": "메이저 아르카나",
+      "majorSubtitle": "인생의 큰 흐름, 22장의 여정",
+      "majorDescription": "0번 바보 카드부터 21번 세계 카드까지, 우리 인생의 중요한 전환점과 영적 교훈을 담고 있어.",
+      "majorCardCount": "22장 모두 보기",
+      "minorTitle": "마이너 아르카나",
+      "minorSubtitle": "일상의 구체적인 이야기들",
+      "minorDescription": "오늘의 기분, 내일의 계획, 소소한 행복까지. 너의 일상에 대한 실질적인 조언을 확인해봐.",
+      "minorCardCount": "56장 모두 보기",
+      "suitsSectionTitle": "수트별 카드",
+      "ctaIcon": "💬",
+      "ctaTitle": "네 고민, 카드가 알고 있을지도 몰라.",
+      "ctaDescription": "연애, 취업, 시험... 어떤 고민이든 괜찮아. 세라피나가 같이 찾아볼게. ✨",
+      "ctaButton": "세라피나와 대화하기"
+    },
+    "suits": {
+      "cups": {
+        "icon": "💖",
+        "name": "컵 (Cups)",
+        "theme": "감정, 사랑, 관계",
+        "description": "사랑과 관계, 내면의 목소리에 귀 기울일 때",
+        "element": "물의 원소",
+        "fullDescription": "감정, 관계, 사랑, 직관을 상징하는 물의 원소"
+      },
+      "pentacles": {
+        "icon": "💰",
+        "name": "펜타클 (Pentacles)",
+        "theme": "현실, 재물, 성과",
+        "description": "일, 돈, 건강 등 현실적인 조언이 필요할 때",
+        "element": "흙의 원소",
+        "fullDescription": "물질, 재정, 현실, 건강을 상징하는 흙의 원소"
+      },
+      "swords": {
+        "icon": "⚡",
+        "name": "검 (Swords)",
+        "theme": "이성, 생각, 결정",
+        "description": "명확한 판단과 냉철한 결단이 필요할 때",
+        "element": "공기의 원소",
+        "fullDescription": "지성, 논리, 갈등, 진실을 상징하는 공기의 원소"
+      },
+      "wands": {
+        "icon": "✨",
+        "name": "지팡이 (Wands)",
+        "theme": "열정, 행동, 창의력",
+        "description": "새로운 영감과 도전할 용기가 필요할 때",
+        "element": "불의 원소",
+        "fullDescription": "열정, 창조, 행동, 영감을 상징하는 불의 원소"
+      }
+    },
+    "majorArcana": {
+      "title": "메이저 아르카나",
+      "subtitle": "22장의 영적인 여정",
+      "introText": "메이저 아르카나는 0번 \"바보\"부터 21번 \"세계\"까지, 인생의 큰 전환점을 상징하는 22장의 카드야.",
+      "ctaTitle": "메이저 아르카나로 상담하기",
+      "ctaDescription": "인생의 중요한 결정을 앞두고 있다면, 힌트를 얻어봐.",
+      "ctaButton": "타로 리딩 시작하기"
+    },
+    "minorArcana": {
+      "title": "마이너 아르카나",
+      "subtitle": "일상의 다양한 순간을 비추는 56장의 카드",
+      "introText": "마이너 아르카나는 일상의 구체적인 상황과 감정을 보여줘. 컵, 펜타클, 검, 지팡이 네 가지 슈트로 구성되어 있어.",
+      "structureTitle": "카드 구성",
+      "numberCardsTitle": "숫자 카드 (Ace - 10)",
+      "numberCardsDesc": "각 수트별 10장의 카드로, 상황의 단계를 나타내.",
+      "numberCardsAce": "에이스:",
+      "numberCardsAceDesc": "새로운 시작, 잠재력",
+      "numberCards24": "2-4:",
+      "numberCards24Desc": "초기 발전 단계",
+      "numberCards57": "5-7:",
+      "numberCards57Desc": "도전과 성장",
+      "numberCards810": "8-10:",
+      "numberCards810Desc": "완성과 결과",
+      "courtCardsTitle": "궁정 카드 (Court Cards)",
+      "courtCardsDesc": "각 수트별 4장의 인물 카드로, 성격이나 역할을 상징해.",
+      "courtCardsPage": "시종 (Page):",
+      "courtCardsPageDesc": "메시지, 학습, 시작",
+      "courtCardsKnight": "기사 (Knight):",
+      "courtCardsKnightDesc": "행동, 움직임, 추구",
+      "courtCardsQueen": "여왕 (Queen):",
+      "courtCardsQueenDesc": "양육, 내면적 성숙",
+      "courtCardsKing": "왕 (King):",
+      "courtCardsKingDesc": "권위, 외면적 성취",
+      "ctaTitle": "일상의 고민, 같이 들여다볼까?",
+      "ctaDescription": "마이너 아르카나가 너의 일상적인 고민에 구체적인 조언을 줄 거야.",
+      "ctaButton": "타로 리딩 시작하기",
+      "cupsDesc": "감정, 관계, 사랑, 직관, 창의성",
+      "pentaclesDesc": "물질, 재정, 현실, 건강, 안정성",
+      "swordsDesc": "지성, 논리, 갈등, 진실, 의사소통",
+      "wandsDesc": "열정, 창조, 행동, 영감, 성장"
+    },
+    "suitDetail": {
+      "ctaTitle": "{suitName} 카드로 상담하기",
+      "ctaDescription": "{suitName} 카드의 메시지를 받아봐!",
+      "notFound": {
+        "title": "카드를 찾을 수 없습니다"
+      }
+    },
+    "detail": {
+      "noCard": "카드 정보 없음",
+      "descriptionTitle": "카드 설명",
+      "uprightTitle": "정방향 의미",
+      "reversedTitle": "역방향 의미",
+      "infoTitle": "카드 정보",
+      "keywordsTitle": "키워드",
+      "categoryLabel": "카테고리",
+      "suitLabel": "수트",
+      "elementLabel": "원소",
+      "ctaTitle": "{cardName} 카드로 상담하기",
+      "ctaDescription": "{cardName} 카드의 메시지, 세라피나랑 더 깊이 들여다보자.",
+      "ctaButton": "타로 리딩 시작하기",
+      "notFoundTitle": "카드를 찾을 수 없습니다",
+      "backButton": "카드 사전으로 돌아가기",
+      "inlineCta": "{cardName} 카드의 의미가 궁금하다면, 지금 타로 리딩 받아봐",
+      "relatedTitle": "관련 카드",
+      "shareLabel": "이 카드를 친구에게 공유해봐",
+      "shareButton": "공유하기",
+      "copyLinkButton": "링크 복사",
+      "linkCopied": "링크 복사됐어!"
+    },
+    "suit": {
+      "noCard": "카드 정보 없음",
+      "startReadingButton": "타로 리딩 시작하기",
+      "backButton": "카드 사전으로 돌아가기"
+    }
+  },
+  "guides": {
+    "main": {
+      "title": "주제별 타로 가이드",
+      "subtitle": "고민에 따라 타로를 더 깊이 활용하는 법, 같이 알아보자! 🍯",
+      "basicTips": "타로 리딩 기본 팁",
+      "viewMore": "자세히 보기"
+    },
+    "love": {
+      "title": "연애운 타로",
+      "subtitle": "사랑과 관계의 흐름을 읽어봐",
+      "cardTitle": "연애운 가이드",
+      "cardSubtitle": "마음에 담아둔 사람, 있어?",
+      "description": "짝사랑, 썸, 이별... 사랑에 대한 고민은 타로에게 물어봐. 너의 길을 비춰줄 거야.",
+      "detailPage": {
+        "title": "연애운 타로 가이드",
+        "subtitle": "사랑과 관계에 대한 타로 리딩 완벽 가이드",
+        "keywordsTitle": "연애운 주요 키워드",
+        "ctaTitle": "연애운 타로 시작하기",
+        "ctaText": "세라피나와 함께 너의 사랑 고민을 풀어봐.",
+        "ctaButton": "지금 바로 시작하기",
+        "blogTitle": "💕 연애 고민 타로 이야기",
+        "blogSubtitle": "다른 친구들의 실제 연애 고민과 타로 해석을 만나봐.",
+        "faqTitle": "자주 묻는 질문",
+        "readingCta": "연애운 타로 리딩",
+        "readingCtaDesc": "세라피나와 함께 너의 사랑 고민을 풀어봐! ✨",
+        "readingCtaButton": "타로 리딩 시작하기"
+      }
+    },
+    "career": {
+      "title": "직업운 타로",
+      "subtitle": "커리어와 성공의 길을 찾아봐",
+      "cardTitle": "직업운 가이드",
+      "cardSubtitle": "취업, 이직, 진로가 고민이야?",
+      "description": "면접, 이직, 승진... 직장 고민은 타로에게 물어봐. 커리어 힌트, 같이 찾아볼게.",
+      "detailPage": {
+        "title": "직업운 타로 가이드",
+        "subtitle": "커리어와 성공에 대한 타로 리딩 완벽 가이드",
+        "keywordsTitle": "직업운 주요 키워드",
+        "ctaTitle": "직업운 타로 시작하기",
+        "ctaText": "세라피나와 함께 너의 커리어 고민을 풀어봐.",
+        "ctaButton": "지금 바로 시작하기",
+        "blogTitle": "💼 진로 고민 타로 이야기",
+        "blogSubtitle": "다른 친구들의 실제 진로 고민과 타로 해석을 만나봐.",
+        "goodCardsTitle": "직업운에 좋은 카드",
+        "readingCta": "직업운 타로 리딩",
+        "readingCtaDesc": "세라피나와 함께 너의 커리어 고민을 풀어봐! ✨",
+        "readingCtaButton": "타로 리딩 시작하기"
+      }
+    },
+    "study": {
+      "title": "학업운 타로",
+      "subtitle": "공부와 시험의 운을 확인해봐",
+      "cardTitle": "학업운 가이드",
+      "cardSubtitle": "시험, 성적, 진학이 고민이야?",
+      "description": "시험, 성적, 진로... 학업 고민은 타로에게 물어봐. 공부 방향, 같이 찾아볼게.",
+      "detailPage": {
+        "title": "학업운 타로 가이드",
+        "subtitle": "시험, 성적, 공부... 학업 고민을 타로로 해결해봐!",
+        "keywordsTitle": "학업운 주요 키워드",
+        "ctaTitle": "학업운 타로 시작하기",
+        "ctaText": "세라피나와 함께 학업 고민을 해결하고 성적을 올려봐.",
+        "ctaButton": "지금 바로 시작하기",
+        "blogTitle": "📚 학업 고민 타로 이야기",
+        "blogSubtitle": "다른 친구들의 실제 학업 고민과 타로 해석을 만나봐.",
+        "goodCardsTitle": "학업운에 좋은 카드",
+        "readingCta": "학업운 타로 리딩",
+        "readingCtaDesc": "세라피나와 함께 시험운부터 진로까지 고민을 풀어봐! 📚✨",
+        "readingCtaButton": "타로 리딩 시작하기"
+      }
+    },
+    "money": {
+      "title": "금전운 타로",
+      "subtitle": "재물과 돈의 흐름을 알아봐",
+      "cardTitle": "금전운 가이드",
+      "cardSubtitle": "돈 모으기, 재테크가 고민이야?",
+      "description": "재물운, 투자, 부업... 돈 고민은 타로에게 물어봐. 재테크 힌트, 같이 찾아볼게.",
+      "detailPage": {
+        "title": "금전운 타로 가이드",
+        "subtitle": "돈, 재물, 투자... 재정 고민을 타로로 해결해봐!",
+        "keywordsTitle": "금전운 주요 키워드",
+        "ctaTitle": "금전운 타로 시작하기",
+        "ctaText": "세라피나와 함께 재물운을 올리고 돈도 모아봐.",
+        "ctaButton": "지금 바로 시작하기",
+        "blogTitle": "💰 금전 고민 타로 이야기",
+        "blogSubtitle": "다른 친구들의 실제 돈 관리 고민과 타로 해석을 만나봐.",
+        "goodCardsTitle": "금전운에 좋은 카드",
+        "readingCta": "금전운 타로 리딩",
+        "readingCtaDesc": "세라피나와 함께 재물운부터 투자까지 고민을 풀어봐! 💰✨",
+        "readingCtaButton": "타로 리딩 시작하기"
+      }
+    },
+    "topics": {
+      "love": [
+        "짝사랑, 그 사람의 마음은?",
+        "우리 썸, 연인으로 이어질까?",
+        "고백해도 괜찮을까?",
+        "헤어진 연인과 재회할 수 있을까?",
+        "연인과의 관계, 더 깊어지려면?"
+      ],
+      "career": [
+        "지금 이직, 괜찮을까?",
+        "이번 면접, 합격할 수 있을까?",
+        "나한테 맞는 진짜 진로는 뭘까?",
+        "새로운 도전, 창업과 부업의 성공 가능성",
+        "직장 동료와의 관계, 어떻게 풀어야 할까?"
+      ],
+      "study": [
+        "이번 시험, 원하는 성적 받을 수 있을까?",
+        "성적을 올릴 수 있는 나만의 공부법",
+        "A와 B, 어떤 진로를 선택해야 할까?",
+        "공부에 집중할 수 있는 방법",
+        "학업 스트레스, 어떻게 해소할까?"
+      ],
+      "money": [
+        "나의 재물운은 언제쯤 풀릴까?",
+        "지금, 투자 시작해도 괜찮은 시기일까?",
+        "부수입을 만들 수 있는 새로운 기회",
+        "돈이 모이는 생활 습관 만들기",
+        "경제적 독립을 위한 현실적인 조언"
+      ]
+    },
+    "cta": {
+      "icon": "",
+      "title": "이제, 너의 이야기를 들려줘",
+      "description": "연애, 직업, 학업, 돈... 어떤 고민이든 괜찮아. 세라피나가 카드를 통해 답을 찾아줄게. ✨",
+      "button": "세라피나와 대화하기 ✨"
+    },
+    "common": {
+      "startButton": "지금 바로 시작하기",
+      "readingButton": "타로 리딩 시작하기",
+      "readMore": "자세히 보기"
+    },
+    "basicTips": {
+      "sectionTitle": "타로 리딩, 이렇게 해봐",
+      "question": {
+        "icon": "❓",
+        "title": "질문은 구체적으로",
+        "description": "막연한 질문보다 구체적인 질문이 더 깊은 해석을 이끌어내.",
+        "badExample": "아쉬운 예:",
+        "badExampleText": "\"저 연애할 수 있을까요?\"",
+        "goodExample": "좋은 예:",
+        "goodExampleText": "\"그 사람과 좋은 관계로 발전하려면 어떻게 해야 할까요?\"",
+        "tip": "팁:",
+        "tipText": "구체적인 상황이나 기간을 포함하면 더 명확한 조언을 얻을 수 있어."
+      },
+      "interpretation": {
+        "icon": "🎴",
+        "title": "카드는 느낌으로",
+        "description": "어렵게 생각하지 마. 카드를 봤을 때의 첫 느낌이 가장 중요해.",
+        "upright": "정방향:",
+        "uprightText": "카드의 에너지가 긍정적이고 활발해.",
+        "reversed": "역방향:",
+        "reversedText": "에너지가 약하거나, 내부를 향하고 있어.",
+        "tip": "팁:",
+        "tipText": "여러 카드를 하나의 이야기로 연결해봐."
+      },
+      "timing": {
+        "icon": "⏰",
+        "title": "리딩은 신중하게",
+        "description": "같은 질문을 너무 자주 반복하는 건 좋지 않아.",
+        "good": "이럴 때 좋아:",
+        "goodText": "중요한 결정을 앞두고 마음이 차분할 때",
+        "bad": "이럴 땐 피해:",
+        "badText": "감정이 격해져 있을 때나, 음주 후",
+        "tip": "팁:",
+        "tipText": "같은 질문은 최소 1~2주 정도 간격을 두는 게 좋아."
+      },
+      "usage": {
+        "icon": "💡",
+        "title": "일상 속 타로 활용법",
+        "description": "타로는 연애운뿐만 아니라 일상의 다양한 순간에 활용할 수 있어.",
+        "daily": "매일:",
+        "dailyText": "'오늘의 카드'로 하루의 기운을 점검해봐.",
+        "weekly": "주간:",
+        "weeklyText": "'주간 운세'로 한 주를 계획해봐.",
+        "choice": "선택의 순간:",
+        "choiceText": "A와 B 중 고민될 때 조언을 구해봐."
+      }
+    }
+  },
+  "blog": {
+    "list": {
+      "title": "✨ 타로 이야기 💫",
+      "subtitle": "실제 고민과 그에 대한 타로의 답변을 만나봐.",
+      "readMore": "자세히 보기"
+    },
+    "post": {
+      "viewCount": "회",
+      "situationTitle": "💬 어떤 고민이었어?",
+      "cardsTitle": "뽑은 카드",
+      "cardLabels": [
+        "과거",
+        "현재",
+        "미래"
+      ],
+      "interpretationTitle": "✨ 카드가 말하는 것",
+      "adviceTitle": "💫 세라피나의 조언",
+      "categoryTitle": "카테고리",
+      "tagsTitle": "태그",
+      "relatedCardsTitle": "관련 카드",
+      "ctaSidebarTitle": "내 고민도 물어볼까?",
+      "ctaSidebarText": "타로 마스터 세라피나와 함께 고민을 풀어봐!",
+      "ctaMainTitle": "네 고민도 타로로 풀어볼까?",
+      "ctaMainText": "세라피나가 너의 이야기를 기다리고 있어.",
+      "startNowButton": "지금 바로 시작하기",
+      "startReadingButton": "타로 리딩 시작하기",
+      "backButton": "목록으로 돌아가기",
+      "loading": "포스트를 불러오는 중이야...",
+      "notFoundTitle": "포스트를 찾을 수 없어",
+      "loadError": "포스트를 불러오는 데 실패했어.",
+      "shareTitle": "이 글 공유하기",
+      "shareButton": "공유하기",
+      "copyLinkButton": "링크 복사",
+      "linkCopied": "링크 복사됐어!",
+      "inlineCtaText": "나도 타로로 고민 해결하기",
+      "inlineCtaButton": "무료 타로 상담 시작"
+    }
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "subtitle": "세라피나 타로 서비스",
+    "lastUpdated": "최종 수정일"
+  },
+  "terms": {
+    "title": "서비스 이용약관",
+    "subtitle": "세라피나 타로 서비스",
+    "lastUpdated": "최종 수정일"
+  },
+  "footer": {
+    "about": "세라피나 타로 소개",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기",
+    "copyright": "© 2026 세라피나 타로. All rights reserved."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했어",
+    "retry": "다시 시도",
+    "confirm": "확인",
+    "cancel": "취소",
+    "close": "닫기",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "수정",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "more": "더보기"
+  },
+  "legal": {
+    "privacy": {
+      "title": "개인정보 처리방침",
+      "subtitle": "세라피나 타로 서비스"
+    },
+    "terms": {
+      "title": "서비스 이용약관",
+      "subtitle": "세라피나 타로 서비스"
+    }
+  },
+  "feedback": {
+    "title": "피드백 보내기",
+    "subtitle": "너의 소중한 의견을 들려줘!",
+    "ratingTitle": "만족도를 알려줘!",
+    "categoriesTitle": "어떤 점이 좋았어?",
+    "commentTitle": "더 하고 싶은 말이 있다면 알려줘.",
+    "commentPlaceholder": "개선했으면 하는 점이나 추가 의견을 자유롭게 남겨줘. (선택사항)",
+    "contactTitle": "답변받을 연락처 (선택사항)",
+    "contactPlaceholder": "이메일이나 SNS 계정 (답변을 원할 경우에만)",
+    "thankYouTitle": "고마워! 💕",
+    "thankYouMessage": "너의 피드백이 세라피나를 더 성장시켜줄 거야!",
+    "closeButton": "닫기"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "무엇을 도와드릴까요?",
+    "typeLabel": "문의 유형",
+    "nameLabel": "이름",
+    "optional": "(선택사항)",
+    "namePlaceholder": "이름을 적어봐 (선택사항)",
+    "emailLabel": "이메일 주소",
+    "emailPlaceholder": "답변받을 이메일을 적어봐",
+    "messageLabel": "문의 내용",
+    "messagePlaceholder": "궁금한 점이나 의견을 자유롭게 적어줘",
+    "infoText": "소중한 의견 감사합니다. 빠른 시일 내에 답변 드리겠습니다!",
+    "thankYouTitle": "문의가 접수되었습니다! 📧",
+    "thankYouMessage": "빠른 시일 내에 답변 드리겠습니다!",
+    "closeButton": "닫기"
+  },
+  "components": {
+    "readingHistory": {
+      "title": "타로 해석 기록",
+      "subtitle": "최근 5개의 해석 결과를 보여줄게.",
+      "loading": "기록을 불러오는 중이야...",
+      "error": "기록을 불러올 수 없어.",
+      "retryButton": "다시 시도",
+      "emptyTitle": "아직 기록된 해석이 없어",
+      "emptySubtitle": "첫 번째 타로 해석을 받아봐!",
+      "cardsCount": "장"
+    },
+    "offlineCard": {
+      "title": "오프라인 모드",
+      "subtitle": "인터넷 연결이 필요해",
+      "message1": "지금은 인터넷에 연결되어 있지 않아서",
+      "message2": "세라피나가 직접 해석해줄 수는 없지만,",
+      "message3": "✨ 대신 오늘의 카드를 한 장 뽑아볼래?",
+      "drawButton": "오늘의 카드 뽑기",
+      "drawHint": "카드가 너한테 전하는 메시지를 확인해봐.",
+      "resultTitle": "🌟 너의 카드",
+      "keywordsTitle": "💫 주요 키워드",
+      "redrawButton": "다른 카드 뽑기"
+    },
+    "feedback": {
+      "title": "피드백 보내기",
+      "subtitle": "너의 소중한 의견을 들려줘!",
+      "ratingTitle": "만족도를 알려줘!",
+      "categoriesTitle": "어떤 점이 좋았어?",
+      "commentTitle": "더 하고 싶은 말이 있다면 알려줘.",
+      "commentPlaceholder": "개선했으면 하는 점이나 추가 의견을 자유롭게 남겨줘. (선택사항)",
+      "contactTitle": "답변받을 연락처 (선택사항)",
+      "contactPlaceholder": "이메일이나 SNS 계정 (답변을 원할 경우에만)",
+      "submitButton": "보내기",
+      "closeButton": "닫기",
+      "thankYouTitle": "고마워! 💕",
+      "thankYouMessage": "너의 피드백이 세라피나를 더 성장시켜줄 거야!",
+      "categories": {
+        "comforting": "따뜻한 위로",
+        "accurate": "정확한 분석",
+        "insightful": "새로운 관점",
+        "friendly": "친절한 말투",
+        "easyToUse": "사용하기 편함"
+      },
+      "ratingLabels": {
+        "1": "많이 아쉬워... 개선이 필요해 보여. 😥",
+        "2": "조금 아쉬워. 더 노력해볼게! 🤔",
+        "3": "보통이야. 그럭저럭 괜찮았어. 😐",
+        "4": "마음에 들어! 꽤 만족스러워. 😊",
+        "5": "최고야! 마음에 쏙 들어. 😍",
+        "default": "별을 눌러 만족도를 표시해줘!"
+      }
+    },
+    "contact": {
+      "title": "문의하기",
+      "subtitle": "무엇을 도와드릴까요?",
+      "categoryTitle": "문의 유형",
+      "emailTitle": "이메일 주소",
+      "emailPlaceholder": "답변받을 이메일을 적어봐",
+      "messageTitle": "문의 내용",
+      "messagePlaceholder": "궁금한 점이나 의견을 자유롭게 적어줘",
+      "submitButton": "문의하기",
+      "closeButton": "닫기",
+      "thankYouTitle": "문의가 접수되었습니다! 📧",
+      "thankYouMessage": "빠른 시일 내에 답변 드리겠습니다!",
+      "categories": {
+        "feedback": "피드백",
+        "bug": "오류 신고",
+        "partnership": "광고/제휴",
+        "other": "기타"
+      },
+      "validation": {
+        "required": "필수 항목이에요.",
+        "invalidEmail": "유효한 이메일 주소를 적어주세요."
+      }
+    }
+  },
+  "seo": {
+    "appName": "세라피나 타로",
+    "cards": {
+      "title": "타로 카드로 힐링하기 - 78장 완벽 해설 | 세라피나 타로",
+      "description": "메이저 아르카나 22장과 마이너 아르카나 56장, 총 78장의 타로 카드로 위로받고 힐링해.",
+      "keywords": "타로카드, 타로 힐링, 메이저 아르카나, 마이너 아르카나, 타로 위로, 타로 해석"
+    },
+    "cardDetail": {
+      "titleTemplate": "{cardName} 타로 카드 의미 해석 | 세라피나 타로",
+      "descriptionTemplate": "{cardName} 타로 카드의 정방향, 역방향 의미를 상세하게 해설합니다. {description}",
+      "keywordsTemplate": "{cardName}, 타로, {category}, {keywords}",
+      "fallbackTitle": "타로 카드 | 세라피나 타로",
+      "fallbackDescription": "타로 카드 상세 정보",
+      "fallbackKeywords": "타로 카드"
+    },
+    "cardsSuit": {
+      "titleTemplate": "{suitName} 타로 카드 완벽 해설 | 세라피나 타로",
+      "descriptionTemplate": "{suitName} 14장의 의미를 상세하게 해설합니다. {description}에 해당하는 타로 카드들을 알아봐.",
+      "keywordsTemplate": "{suitName}, 타로, {element}, 마이너 아르카나",
+      "fallbackTitle": "타로 카드 | 세라피나 타로",
+      "fallbackDescription": "타로 카드 정보",
+      "fallbackKeywords": "타로 카드"
+    },
+    "guides": {
+      "title": "타로 운세 가이드 - 연애운, 직업운, 학업운, 금전운 | 세라피나 타로",
+      "description": "짝사랑, 썸, 이별, 재회, 취업, 승진, 시험, 성적, 재물운, 투자 등 다양한 상황에서 타로 운세를 보는 방법과 해석 가이드를 제공해.",
+      "keywords": "타로 운세, 연애운, 직업운, 학업운, 금전운, 짝사랑운세, 썸운세, 취업운, 시험운, 재물운, 타로 가이드"
+    },
+    "blog": {
+      "listTitle": "타로 이야기 - 실제 타로 상담 사례 모음 | 세라피나 타로",
+      "listDescription": "짝사랑, 이별, 진로 등 다양한 고민을 타로로 풀어본 실제 이야기들을 만나봐. 연애운, 우정운, 진로운, 학업운 등 다양한 해석 사례를 제공해.",
+      "listKeywords": "짝사랑 타로, 이별 타로, 복연 타로, 진로 타로, 타로 사례, 타로 이야기, 타로 해석, 연애운 타로, 우정운 타로, 학업운 타로, 입시 타로, 전학 타로, 가족 갈등 타로, 10대 고민 타로, 타로 상담, 무료 타로"
+    }
+  },
+  "subscription": {
+    "title": "프리미엄 구독",
+    "currentBadge": "프리미엄 이용 중",
+    "benefitsTitle": "프리미엄 혜택",
+    "discountBadge": "33% 할인",
+    "monthlyPayment": "매월 결제",
+    "selectPlan": "플랜을 골라봐",
+    "payButton": "{price}원 결제하기",
+    "notice1": "구독은 결제일로부터 시작되며, 기간 만료 전 언제든 해지할 수 있어.",
+    "notice2": "이미 구독 중이라면 남은 기간에 추가로 연장돼.",
+    "benefits": {
+      "unlimited": "무제한 타로 상담",
+      "unlimitedHistory": "상담 기록 무제한 저장",
+      "noAds": "광고 없는 깔끔한 경험",
+      "premiumSpreads": "프리미엄 타로 스프레드"
+    },
+    "errors": {
+      "systemSetup": "결제 시스템 설정이 필요해요",
+      "paymentFailed": "결제 중 오류가 발생했어요"
+    }
+  },
+  "ad": {
+    "specialOfferTitle": "✨ 특별 혜택 💫",
+    "specialOfferSubtitle": "세라피나가 준비한 선물!",
+    "premiumTitle": "프리미엄 타로 상담",
+    "premiumDescription": "더 깊은 타로 해석과 무제한 상담이 필요해?<br>지금 프리미엄 회원가입하고 특별한 혜택을 받아봐!",
+    "benefits": {
+      "unlimited": "무제한 타로 상담",
+      "unlimitedHistory": "상담 기록 무제한 저장",
+      "noAds": "광고 없는 깔끔한 경험",
+      "premiumSpreads": "프리미엄 타로 스프레드"
+    },
+    "originalPrice": "₩9,900",
+    "discountedPrice": "₩4,900/월",
+    "discountLabel": "🎉 첫 달 50% 할인!",
+    "laterButton": "다음에 할게",
+    "signUpButton": "프리미엄 가입하기 ✨"
+  },
+  "rewardedAd": {
+    "title": "오늘의 무료 상담을 다 썼어",
+    "subtitle": "아래 방법으로 추가 상담을 받아봐!",
+    "watchAdTitle": "광고 보고 1회 추가",
+    "watchAdDesc": "짧은 광고 시청 후 리딩 1회 무료!",
+    "alreadyWatched": "오늘 이미 시청 완료",
+    "comeTomorrow": "광고 보고 더 진행할 수 있어",
+    "pointsTitle": "포인트로 추가 (20P)",
+    "pointsBalance": "보유 {balance}P",
+    "subscriptionTitle": "프리미엄 구독",
+    "subscriptionDesc": "무제한 상담 월 4,900원",
+    "tomorrowTitle": "잠깐 쉬어가자",
+    "freeReadingsInfo": "언제든 부담 없이",
+    "confirmMessage": "15초 광고를 시청하면 리딩 1회가 추가돼. 시청할까?",
+    "alreadyWatchedAlert": "오늘은 이미 보상형 광고를 시청했어",
+    "errorMessage": "오류가 발생했어. 다시 시도해봐."
+  },
+  "share": {
+    "title": "결과 공유하기",
+    "brandName": "세라피나 타로",
+    "nativeShareButton": "공유하기",
+    "copyButton": "텍스트 복사",
+    "downloadButton": "이미지 저장",
+    "shareText": "세라피나 타로 리딩\n\n{cards}\n\n{reading}\n\n나도 타로 보러가기 👉 https://serapina.kr",
+    "shareTitle": "세라피나 타로 리딩",
+    "copiedMessage": "복사됐어!"
+  },
+  "readingView": {
+    "appTitle": "세라피나 타로",
+    "appSubtitle": "타로 AI 상담사",
+    "homeButton": "홈으로",
+    "steps": {
+      "question": "질문하기",
+      "cards": "카드 뽑기",
+      "interpreting": "해석 중",
+      "result": "결과 보기"
+    },
+    "questionHeader": "뭐가 궁금해?",
+    "questionSubheader": "마음 속 고민을 자유롭게 털어놔봐",
+    "drawCardsButton": "카드 뽑으러 가기",
+    "examplesTitle": "이런 질문은 어때?",
+    "resultSubtitle": "타로 리딩 결과",
+    "questionLabel": "너의 질문",
+    "interpretationTitle": "세라피나의 해석",
+    "interpretationSubtitle": "너만을 위한 타로 메시지",
+    "premiumNudge": "무제한 리딩 + 광고 제거 → 프리미엄",
+    "anotherQuestion": "다른 질문하기",
+    "saveReading": "저장하기",
+    "saved": "저장됨",
+    "viewSavedReadings": "저장된 리딩 보기 →",
+    "shareResult": "결과 공유하기",
+    "questionPlaceholder": "예: 좋아하는 사람이 날 어떻게 생각할까?",
+    "reversedTag": "역방향",
+    "errors": {
+      "interpretFailed": "미안, 해석 중 문제가 생겼어. 다시 한번 해볼래?",
+      "premiumFailed": "미안, 프리미엄 해석 중 문제가 생겼어. 다시 한번 해볼래?"
+    },
+    "categories": {
+      "love": "연애",
+      "career": "진로",
+      "money": "재물",
+      "study": "학업",
+      "health": "건강",
+      "other": "기타"
+    },
+    "examples": {
+      "love1": "좋아하는 사람이 날 어떻게 생각할까?",
+      "love2": "썸남한테 먼저 연락해도 될까?",
+      "love3": "전 애인이 자꾸 생각나",
+      "study1": "이번 시험 결과가 어떻게 나올까?",
+      "friend1": "친구랑 멀어진 것 같아 어떡하지?",
+      "career1": "지금 하는 일이 맞는 방향일까?",
+      "money1": "올해 재물운은 어떨까?",
+      "health1": "건강이 걱정돼"
+    }
+  },
+  "savedReadings": {
+    "title": "저장된 리딩",
+    "subtitle": "소중한 타로 메시지를 다시 만나봐",
+    "filterAll": "전체",
+    "filterFavorites": "즐겨찾기",
+    "emptyTitle": "저장된 리딩이 없어",
+    "emptyDesc": "타로 상담 후 '저장하기'를 눌러 리딩을 보관해봐!",
+    "startReading": "타로 상담 시작하기",
+    "detailTitle": "리딩 상세"
+  },
+  "loadingScreen": {
+    "messages": {
+      "reading": "세라피나가 카드를 읽고 있어...",
+      "energy": "카드의 에너지를 느끼고 있어...",
+      "starlight": "별빛이 카드를 비추고 있어...",
+      "insight": "깊은 통찰을 정리하고 있어...",
+      "preparing": "너만을 위한 메시지를 준비 중이야..."
+    },
+    "reversedBadge": "역방향"
+  }
+}
