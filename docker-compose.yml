@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  # MySQL 데이터베이스
+  mysql:
+    image: mysql:8.0
+    container_name: tarot_mysql
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    command: --default-authentication-plugin=mysql_native_password
+    networks:
+      - tarot_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+
+  # Ollama AI 서비스
+  ollama:
+    image: ollama/ollama
+    container_name: tarot_ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - tarot_network
+
+  # 백엔드 API 서버
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: tarot-backend:latest
+    container_name: tarot_backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      OLLAMA_API_URL: http://host.docker.internal:11434/api/chat
+      OLLAMA_MODEL: ${OLLAMA_MODEL}
+      OLLAMA_MODEL_LIGHT: ${OLLAMA_MODEL_LIGHT}
+      OLLAMA_MODEL_HEAVY: ${OLLAMA_MODEL_HEAVY}
+      ENCRYPTION_PASSWORD: ${ENCRYPTION_PASSWORD}
+      SECRET_KEY: ${SECRET_KEY}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # RAG 인덱스는 이미지에 굽지 않고 호스트에서 마운트한다.
+      # 이미지에 넣었을 때 인덱스를 갱신해도 컨테이너가 옛 사본을 계속 봤다.
+      - ./backend/rag_data:/app/rag_data
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - tarot_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Nginx 리버스 프록시 (프론트엔드 + API)
+  nginx:
+    image: nginx:alpine
+    container_name: tarot_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html
+      - ./nginx/.htpasswd:/etc/nginx/.htpasswd:ro
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./certbot/www:/var/www/certbot
+    depends_on:
+      - backend
+    networks:
+      - tarot_network
+
+  # Certbot (Let's Encrypt SSL 인증서)
+  # deploy-hook: 인증서가 실제로 갱신됐을 때만 nginx에 SIGHUP을 보내 새 인증서를 읽게 함
+  # docker.sock이 필요해서 컨테이너 안에 docker-cli를 설치함
+  certbot:
+    image: certbot/certbot
+    container_name: tarot_certbot
+    # restart 정책이 없으면 재부팅 후 이 컨테이너만 안 떠서 인증서 갱신이 조용히 멈춤
+    restart: unless-stopped
+    volumes:
+      - ./nginx/ssl:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+      - /var/run/docker.sock:/var/run/docker.sock
+    entrypoint: "/bin/sh -c 'apk add --no-cache docker-cli >/dev/null 2>&1 || true; trap exit TERM; while :; do certbot renew --deploy-hook \"docker kill -s HUP tarot_nginx\"; sleep 12h & wait $${!}; done;'"
+
+volumes:
+  mysql_data:
+    driver: local
+  ollama_data:
+    driver: local
+
+networks:
+  tarot_network:
+    driver: bridge

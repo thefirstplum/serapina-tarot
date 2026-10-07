@@ -1,0 +1,109 @@
+/* Reset default browser styles if needed */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+#app {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 글로벌 테마 변수 */
+:root {
+  /* 라이트 테마 */
+  --primary-color: #FB7185;        /* 코랄, 메인 강조 */
+  --secondary-color: #C4B5FD;      /* 라벤더, 보조 강조 */
+
+  --accent-pink: #FB7185;          /* 코랄 (메인과 동기화) */
+  --accent-blue: #C4B5FD;          /* 라벤더 */
+  --accent-green: #6EE7B7;         /* 민트 */
+  --accent-yellow: #FEF3C7;        /* 소프트 옐로 (하이라이트용) */
+
+  --bg-primary: #FEF8E7;           /* 크림, 메인 배경 */
+  --bg-secondary: #F4EBDC;         /* 웜 베이지, 보조 배경 (눈부심 완화) */
+  --card-bg: #FFFFFF;              /* 카드 흰색 (대비) */
+
+  --border-color: #D4C8B5;         /* 베이지 톤 보더 (강한 잉크 보더는 view별 override) */
+  --button-hover-bg: #FEF3C7;      /* 옐로 호버 */
+
+  --gradient-primary: linear-gradient(135deg, #FB7185, #C4B5FD);
+
+  --success-color: #6EE7B7;        /* 민트 */
+  --error-color: #FB7185;          /* 코랄 (강한 빨강 대신) */
+
+  /* 텍스트 색상 (잉크 네이비) */
+  --text-primary: #1A1A2E;
+  --text-secondary: #2D2D4D;
+  --text-muted: #6B6B7B;
+  --text-on-primary: #FFFFFF;
+  --text-on-card: #1A1A2E;
+
+  /* 그림자 (Memphis 스타일) */
+  --shadow-soft: 0px 4px 12px rgba(26, 26, 46, 0.08);
+  --shadow-hover: 0px 8px 20px rgba(26, 26, 46, 0.12);
+  --shadow-purple: 0 4px 16px rgba(251, 113, 133, 0.18);
+
+  /* 폰트 */
+  --font-cute: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --border-radius-cute: 16px;
+}
+
+/* 다크 테마 (랜딩 페이지와 같은 톤) */
+.dark-theme {
+  --primary-color: #A78BFA; /* 연한 보라색 */
+  --secondary-color: #7C3AED; /* 포인트 보라색 */
+
+  --accent-pink: #F472B6;
+  --accent-blue: #60A5FA;
+  --accent-green: #34D399;
+  --accent-yellow: #FCD34D;
+
+  --bg-primary: #0d0a1a; /* 랜딩 페이지와 통일 */
+  --bg-secondary: #1a1033; /* 랜딩 페이지와 통일 */
+  --card-bg: rgba(255, 255, 255, 0.05); /* 글라스모피즘 */
+
+  --border-color: rgba(255, 255, 255, 0.1);
+  --button-hover-bg: rgba(167, 139, 250, 0.15);
+
+  --gradient-primary: linear-gradient(135deg, #A78BFA, #7C3AED);
+
+  /* 텍스트 색상 */
+  --text-primary: #e8dff5;
+  --text-secondary: rgba(196, 181, 253, 0.7);
+  --text-muted: rgba(196, 181, 253, 0.4);
+  --text-on-primary: #FFFFFF;
+  --text-on-card: #e8dff5;
+
+  /* 그림자 및 기타 요소 */
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-purple: 0 2px 12px rgba(167, 139, 250, 0.15);
+}
+
+/* 글로벌 폰트 설정 */
+* {
+  font-family: var(--font-cute);
+}
+
+/* 부드러운 스크롤 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* New Card Style */
+.card-style {
+  background: var(--card-bg, #FFFFFF);
+  border: 1px solid var(--border-color, #EAEAEA);
+  border-radius: var(--border-radius-cute, 16px);
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+}
+
+.card-style:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}

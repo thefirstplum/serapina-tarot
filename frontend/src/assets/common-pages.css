@@ -1,0 +1,195 @@
+/* 공통 페이지 스타일 (라이트/다크 공용)
+ * main.css의 :root / .dark-theme:root 변수를 그대로 사용한다.
+ */
+
+/* 페이지 레이아웃 */
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 고정 헤더 */
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-soft);
+  padding: 1rem 1.5rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-button {
+  flex-shrink: 0;
+  background: var(--card-bg) !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary) !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: var(--text-primary) !important;
+  background-clip: unset !important;
+  text-shadow: none;
+}
+
+.page-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary) !important;
+  margin: 0.25rem 0 0 0;
+  text-shadow: none;
+}
+
+/* 콘텐츠 영역 */
+.page-content {
+  flex: 1;
+  padding: 24px 16px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-card {
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  animation: fadeIn 0.5s ease-in;
+  background: var(--card-bg) !important;
+  border: 1px solid var(--border-color);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 콘텐츠 내부 */
+.content-body {
+  padding: 32px;
+  line-height: 1.6;
+}
+
+/* 섹션 스타일 */
+.content-section {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.content-section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.content-section:first-child {
+  padding-top: 0;
+}
+
+/* 제목 */
+.section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.heading-icon {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+/* 리스트 */
+.content-list {
+  margin: 0;
+  padding-left: 24px;
+  list-style-type: disc;
+}
+
+.content-list li {
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.content-list li:last-child {
+  margin-bottom: 0;
+}
+
+.content-list strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* 일반 텍스트 */
+.content-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 8px;
+}
+
+.content-text:last-child {
+  margin-bottom: 0;
+}
+
+.content-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Alert 스타일 통일 */
+.content-alert {
+  margin-top: 16px;
+  border-radius: 12px;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.25rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .content-body {
+    padding: 24px 20px;
+  }
+
+  .section-heading {
+    font-size: 0.95rem;
+  }
+
+  .content-list li,
+  .content-text {
+    font-size: 0.85rem;
+  }
+
+  .content-section {
+    padding: 16px 0;
+  }
+}

@@ -1,0 +1,1369 @@
+/* 상세 페이지 공통 CSS (Memphis + Bauhaus 톤)
+   대상: CardDetail, Cards, Major, Minor, CardsSuit,
+        Guides, GuideLove/Career/Study/Money,
+        Blog, BlogPost, Privacy, Terms */
+
+/* 페이지 컨테이너 */
+body .app-main .page-layout,
+body .app-main > .page-layout {
+  background: var(--bg-primary);
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+/* 헤더 (back, title, share) */
+body .app-main .page-header {
+  background: var(--bg-secondary);
+  border-bottom: 2px solid var(--text-primary);
+  padding: 16px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 3px 0 rgba(26, 26, 46, 0.08);
+}
+
+/* 헤더 타이틀 옆 세라피나 심볼 */
+body .app-main .page-header .header-text .page-title::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url('/icons/symbol-64.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: -5px;
+  margin-right: 8px;
+}
+
+body .app-main .page-header .header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+body .app-main .page-header .header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+body .app-main .page-header .page-title {
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body .app-main .page-header .page-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  margin: 2px 0 0;
+  font-weight: 500;
+}
+
+/* back button */
+body .app-main .back-button {
+  background: var(--card-bg) !important;
+  border: 2px solid var(--text-primary) !important;
+  color: var(--text-primary) !important;
+  border-radius: 10px !important;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  box-shadow: 2px 2px 0 var(--text-primary);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+body .app-main .back-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--text-primary);
+}
+
+body .app-main .share-btn-header {
+  color: var(--text-primary) !important;
+}
+
+/* 본문 컨테이너 */
+body .app-main .page-content {
+  padding: 24px 16px;
+}
+
+body .app-main .content-container {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* 정보 섹션 카드 */
+body .app-main .info-section,
+body .app-main .content-section,
+body .app-main .guide-section,
+body .app-main .blog-section {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 24px 22px;
+  box-shadow: 5px 5px 0 var(--text-primary);
+}
+
+/* 섹션 제목 */
+body .app-main .section-title {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 0 0 14px;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+body .app-main .section-title::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 18px;
+  background: var(--primary-color);
+  border-radius: 2px;
+  border: 1.5px solid var(--text-primary);
+}
+
+/* meaning-header (upright/reversed)는 색만 다르게 */
+body .app-main .meaning-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+body .app-main .meaning-header .section-title {
+  margin-bottom: 0;
+}
+body .app-main .meaning-header.upright .section-title::before {
+  background: var(--accent-green);
+}
+body .app-main .meaning-header.reversed .section-title::before {
+  background: var(--primary-color);
+}
+
+/* 본문 텍스트 */
+body .app-main .section-text,
+body .app-main .info-section p,
+body .app-main .content-section p {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin: 0 0 12px;
+  font-weight: 500;
+}
+body .app-main .section-text:last-child,
+body .app-main .info-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* 카드 hero (이미지, 메타) */
+body .app-main .card-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  padding: 28px 22px;
+  background: var(--secondary-color);
+  border: 2px solid var(--text-primary);
+  border-radius: 22px;
+  box-shadow: 6px 6px 0 var(--text-primary);
+}
+
+body .app-main .card-image-wrapper {
+  width: 180px;
+  aspect-ratio: 2 / 3;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2.5px solid var(--text-primary);
+  box-shadow: 4px 4px 0 var(--primary-color);
+  background: var(--card-bg);
+}
+
+body .app-main .card-image-wrapper .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body .app-main .card-hero-info {
+  text-align: center;
+}
+
+body .app-main .card-subtitle-hero {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 10px 0 0;
+  letter-spacing: -0.01em;
+}
+
+/* 메타 칩 (카테고리, suit, element 등) */
+body .app-main .meta-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body .app-main .meta-pill {
+  background: var(--card-bg);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  box-shadow: 1.5px 1.5px 0 var(--text-primary);
+}
+
+body .app-main .meta-pill.accent {
+  background: var(--accent-yellow);
+}
+
+/* 키워드 칩 (uprightKeywords, reversedKeywords) */
+body .app-main .keywords-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+body .app-main .keyword-chip {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: 1.5px solid var(--text-primary);
+  color: var(--text-primary);
+  box-shadow: 1.5px 1.5px 0 var(--text-primary);
+  background: var(--card-bg);
+}
+
+body .app-main .keyword-chip.upright-chip {
+  background: rgba(110, 231, 183, 0.45); /* accent-green soft */
+}
+
+body .app-main .keyword-chip.reversed-chip {
+  background: rgba(251, 113, 133, 0.18); /* primary soft */
+}
+
+/* CTA 섹션 (하단 추천 박스) */
+body .app-main .cta-section {
+  margin-top: 8px;
+}
+
+body .app-main .cta-card {
+  background: var(--accent-yellow);
+  border: 2px solid var(--text-primary);
+  border-radius: 22px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 6px 6px 0 var(--primary-color);
+}
+
+body .app-main .cta-card h3 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 8px;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+body .app-main .cta-card p {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  margin: 0 0 18px;
+  font-weight: 500;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+body .app-main .cta-card .v-btn {
+  background: var(--primary-color) !important;
+  color: var(--text-primary) !important;
+  border: 2px solid var(--text-primary) !important;
+  border-radius: 14px !important;
+  font-weight: 800 !important;
+  box-shadow: 3px 3px 0 var(--text-primary) !important;
+  transition: all 0.15s !important;
+  text-transform: none !important;
+  letter-spacing: -0.01em !important;
+}
+
+body .app-main .cta-card .v-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--text-primary) !important;
+}
+
+/* 리스트 카드 (가이드, 블로그 목록) */
+body .app-main .list-card,
+body .app-main .item-card,
+body .app-main .blog-item {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 16px;
+  padding: 18px 18px;
+  box-shadow: 4px 4px 0 var(--text-primary);
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+}
+
+body .app-main .list-card:hover,
+body .app-main .item-card:hover,
+body .app-main .blog-item:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--primary-color);
+}
+
+/* Privacy, Terms 텍스트 본문 */
+body .app-main .legal-content,
+body .app-main .privacy-content,
+body .app-main .terms-content {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 32px 28px;
+  box-shadow: 5px 5px 0 var(--text-primary);
+}
+
+body .app-main .legal-content h2,
+body .app-main .legal-content h3 {
+  color: var(--text-primary);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  margin-top: 28px;
+}
+
+body .app-main .legal-content p,
+body .app-main .legal-content li {
+  color: var(--text-primary);
+  line-height: 1.75;
+  font-size: 0.93rem;
+}
+
+/* Empty State */
+body .app-main .empty-state {
+  text-align: center;
+  padding: 56px 24px;
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 22px;
+  box-shadow: 5px 5px 0 var(--secondary-color);
+}
+
+body .app-main .empty-state h3 {
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 12px 0 6px;
+}
+
+body .app-main .empty-state p {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin: 0 0 20px;
+}
+
+/* 모바일 */
+@media (max-width: 600px) {
+  body .app-main .page-header {
+    padding: 12px 14px;
+  }
+  body .app-main .page-header .page-title {
+    font-size: 1.05rem;
+  }
+  body .app-main .page-content {
+    padding: 18px 12px;
+  }
+  body .app-main .content-container {
+    gap: 18px;
+  }
+  body .app-main .info-section,
+  body .app-main .content-section,
+  body .app-main .guide-section,
+  body .app-main .blog-section {
+    padding: 20px 18px;
+    box-shadow: 4px 4px 0 var(--text-primary);
+  }
+  body .app-main .card-hero {
+    padding: 22px 18px;
+  }
+  body .app-main .card-image-wrapper {
+    width: 150px;
+  }
+  body .app-main .cta-card {
+    padding: 26px 20px;
+    box-shadow: 5px 5px 0 var(--primary-color);
+  }
+  body .app-main .cta-card h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* 목록 페이지: Guides, Blog 카드 그리드 */
+
+/* 그리드 컨테이너 */
+body .app-main .guide-grid,
+body .app-main .blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+  margin-top: 8px;
+}
+
+/* Guide 카드 */
+body .app-main .guide-card {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 20px;
+  padding: 26px 22px;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 카테고리별 색 그림자 */
+body .app-main .guide-card.love {
+  box-shadow: 6px 6px 0 var(--primary-color);
+}
+body .app-main .guide-card.career {
+  box-shadow: 6px 6px 0 var(--secondary-color);
+}
+body .app-main .guide-card.study {
+  box-shadow: 6px 6px 0 var(--accent-green);
+}
+body .app-main .guide-card.money {
+  box-shadow: 6px 6px 0 #FCD34D;
+}
+
+body .app-main .guide-card:hover {
+  transform: translate(-3px, -3px);
+}
+body .app-main .guide-card.love:hover { box-shadow: 9px 9px 0 var(--primary-color); }
+body .app-main .guide-card.career:hover { box-shadow: 9px 9px 0 var(--secondary-color); }
+body .app-main .guide-card.study:hover { box-shadow: 9px 9px 0 var(--accent-green); }
+body .app-main .guide-card.money:hover { box-shadow: 9px 9px 0 #FCD34D; }
+
+body .app-main .guide-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 2px 0 rgba(26, 26, 46, 0.15));
+}
+
+body .app-main .guide-title {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  display: block;
+}
+body .app-main .guide-title::before {
+  display: none; /* section-title 전역 막대 제거 */
+}
+
+body .app-main .guide-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+body .app-main .guide-description {
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin: 10px 0 6px;
+  font-weight: 500;
+  opacity: 0.88;
+}
+
+body .app-main .guide-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+body .app-main .guide-list li {
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.5;
+}
+
+body .app-main .guide-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+body .app-main .guide-card.career .guide-list li::before { color: var(--secondary-color); }
+body .app-main .guide-card.study  .guide-list li::before { color: var(--accent-green); }
+body .app-main .guide-card.money  .guide-list li::before { color: #D97706; }
+
+body .app-main .guide-footer {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1.5px dashed rgba(26, 26, 46, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+/* Blog 카드 */
+body .app-main .blog-card {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 22px 20px;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 5px 5px 0 var(--text-primary);
+}
+
+body .app-main .blog-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0 var(--primary-color);
+}
+
+body .app-main .blog-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+body .app-main .blog-emoji {
+  font-size: 2rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 0 rgba(26, 26, 46, 0.12));
+}
+
+body .app-main .blog-category-badge {
+  background: var(--accent-yellow);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  box-shadow: 1.5px 1.5px 0 var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+body .app-main .blog-card-title {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 4px 0 0;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+  display: block;
+}
+body .app-main .blog-card-title::before {
+  display: none;
+}
+
+body .app-main .blog-card-excerpt {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 500;
+  opacity: 0.85;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+body .app-main .blog-card-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1.5px dashed rgba(26, 26, 46, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+body .app-main .blog-card-date {
+  color: var(--text-secondary);
+}
+
+body .app-main .blog-card-link {
+  color: var(--primary-color);
+  letter-spacing: -0.01em;
+}
+
+/* Blog 카테고리 필터 */
+body .app-main .blog-filter,
+body .app-main .category-filter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+body .app-main .filter-chip,
+body .app-main .category-chip {
+  background: var(--card-bg);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 2px 2px 0 var(--text-primary);
+}
+
+body .app-main .filter-chip.active,
+body .app-main .category-chip.active {
+  background: var(--primary-color);
+  color: var(--text-primary);
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 var(--text-primary);
+}
+
+/* 카드 그리드 (Major, Minor, Suit) */
+
+body .app-main .cards-grid,
+body .app-main .arcana-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 18px;
+  margin-top: 8px;
+}
+
+body .app-main .tarot-card {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 4px 4px 0 var(--text-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+body .app-main .tarot-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0 var(--primary-color);
+  border-color: var(--text-primary);
+}
+
+body .app-main .tarot-card .card-image-wrap {
+  aspect-ratio: 7 / 12;
+  overflow: hidden;
+  background: var(--bg-secondary);
+  border-bottom: 2px solid var(--text-primary);
+}
+
+body .app-main .tarot-card .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+body .app-main .tarot-card .card-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+}
+
+body .app-main .tarot-card .card-number-badge {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  opacity: 0.5;
+}
+
+body .app-main .tarot-card .card-info {
+  padding: 10px 12px;
+  text-align: center;
+  background: var(--card-bg);
+}
+
+body .app-main .tarot-card .card-name {
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+body .app-main .tarot-card .card-number {
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+/* CardDetail: 인라인 CTA, 관련 가이드/카드, 공유 */
+
+/* "궁금하다면" 영역 */
+body .app-main .inline-cta {
+  background: var(--accent-yellow);
+  border: 2px solid var(--text-primary);
+  border-radius: 20px;
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: 5px 5px 0 var(--primary-color);
+}
+
+body .app-main .inline-cta-question {
+  color: var(--text-primary);
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 6px;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+body .app-main .inline-cta-subtext {
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  margin: 0 0 18px;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+body .app-main .inline-cta .quick-question-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+body .app-main .inline-cta .quick-q-chip {
+  background: var(--card-bg) !important;
+  border: 1.5px solid var(--text-primary) !important;
+  color: var(--text-primary) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  box-shadow: 2px 2px 0 var(--text-primary);
+}
+body .app-main .inline-cta .quick-q-chip:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--text-primary);
+}
+
+body .app-main .inline-cta-btn {
+  background: var(--primary-color) !important;
+  color: var(--text-primary) !important;
+  border: 2px solid var(--text-primary) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  box-shadow: 3px 3px 0 var(--text-primary);
+}
+body .app-main .inline-cta-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--text-primary) !important;
+}
+
+/* "관련 타로 가이드" 영역 */
+body .app-main .related-guides {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 24px 22px;
+  box-shadow: 5px 5px 0 var(--secondary-color);
+}
+
+body .app-main .related-guides .section-heading {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 0 0 14px;
+  letter-spacing: -0.015em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .app-main .related-guides .section-heading::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 18px;
+  background: var(--secondary-color);
+  border-radius: 2px;
+  border: 1.5px solid var(--text-primary);
+}
+
+body .app-main .related-guides .guide-link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+body .app-main .related-guides .guide-link-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 12px;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 2.5px 2.5px 0 var(--text-primary);
+  transition: all 0.15s;
+  letter-spacing: -0.01em;
+}
+
+body .app-main .related-guides .guide-link-card:hover {
+  transform: translate(-1.5px, -1.5px);
+  box-shadow: 4px 4px 0 var(--primary-color);
+  background: var(--accent-yellow);
+}
+
+/* "관련 카드" 영역 */
+body .app-main .related-section {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 24px 22px;
+  box-shadow: 5px 5px 0 var(--text-primary);
+}
+
+body .app-main .related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 14px;
+  margin-top: 4px;
+}
+
+body .app-main .related-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+body .app-main .related-card:hover {
+  transform: translate(-2px, -2px);
+}
+
+body .app-main .related-card-img {
+  width: 100%;
+  aspect-ratio: 7 / 12;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1.5px solid var(--text-primary);
+  box-shadow: 2.5px 2.5px 0 var(--text-primary);
+}
+
+body .app-main .related-card-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* "공유" 영역 */
+body .app-main .share-section {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 4px 4px 0 var(--accent-green);
+  text-align: center;
+}
+
+body .app-main .share-label {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+body .app-main .share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+body .app-main .share-buttons .v-btn {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border: 1.5px solid var(--text-primary) !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: -0.01em !important;
+  box-shadow: 2px 2px 0 var(--text-primary);
+}
+
+/* 모바일: 그리드 1열 */
+@media (max-width: 600px) {
+  body .app-main .guide-grid,
+  body .app-main .blog-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  body .app-main .guide-card {
+    padding: 22px 18px;
+  }
+  body .app-main .guide-card.love,
+  body .app-main .guide-card.career,
+  body .app-main .guide-card.study,
+  body .app-main .guide-card.money {
+    box-shadow: 5px 5px 0 currentColor;
+  }
+  body .app-main .blog-card {
+    padding: 20px 18px;
+    box-shadow: 4px 4px 0 var(--text-primary);
+  }
+  body .app-main .cards-grid,
+  body .app-main .arcana-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 14px;
+  }
+  body .app-main .tarot-card {
+    box-shadow: 3px 3px 0 var(--text-primary);
+  }
+  body .app-main .inline-cta {
+    padding: 24px 18px;
+    box-shadow: 4px 4px 0 var(--primary-color);
+  }
+  body .app-main .related-guides .guide-link-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body .app-main .page-header .header-text .page-title::before {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    vertical-align: -3px;
+  }
+}
+
+/* Blog 필터바 */
+
+body .app-main .filter-bar {
+  background: var(--bg-primary);
+  border-bottom: 2px solid var(--text-primary);
+  padding: 14px 16px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  position: sticky;
+  top: 73px; /* page-header 아래 */
+  z-index: 9;
+}
+
+body .app-main .filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+body .app-main .filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+body .app-main .filter-bar .filter-chip {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border: 1.5px solid var(--text-primary);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 2px 2px 0 var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+body .app-main .filter-bar .filter-chip:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--text-primary);
+  background: var(--accent-yellow);
+}
+
+body .app-main .filter-bar .filter-chip.active {
+  background: var(--primary-color);
+  color: var(--text-primary);
+  border-color: var(--text-primary);
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 var(--text-primary);
+}
+
+/* Guide, BlogPost 상세: 콘텐츠 카드, 인라인 CTA */
+
+/* .info-card: Guide/Blog 본문 카드 (.info-section과 같은 톤) */
+body .app-main .info-card {
+  background: var(--card-bg);
+  border: 2px solid var(--text-primary);
+  border-radius: 18px;
+  padding: 26px 24px;
+  box-shadow: 5px 5px 0 var(--text-primary);
+}
+
+body .app-main .info-card + .info-card {
+  margin-top: 0; /* 간격은 gap으로 처리 */
+}
+
+/* h3 보조 제목 */
+body .app-main .subsection-title {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 18px 0 10px;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+/* 콘텐츠 일반 리스트 */
+body .app-main .section-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+body .app-main .section-list li {
+  color: var(--text-primary);
+  font-size: 0.93rem;
+  line-height: 1.55;
+  font-weight: 500;
+  padding-left: 22px;
+  position: relative;
+}
+
+body .app-main .section-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+/* 클릭 가능 리스트 (try-badge 포함) */
+body .app-main .section-list.clickable-list li {
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 14px;
+  padding: 14px 16px 14px 38px;
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 2.5px 2.5px 0 var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+body .app-main .section-list.clickable-list li::before {
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+body .app-main .section-list.clickable-list li:hover {
+  transform: translate(-1.5px, -1.5px);
+  box-shadow: 4px 4px 0 var(--primary-color);
+  background: var(--accent-yellow);
+}
+
+body .app-main .try-badge {
+  display: inline-flex;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--text-primary);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  box-shadow: 1.5px 1.5px 0 var(--text-primary);
+  white-space: nowrap;
+}
+
+/* 힌트 박스 */
+body .app-main .card-hint-box {
+  background: var(--secondary-color);
+  border: 1.5px dashed var(--text-primary);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-top: 14px;
+}
+
+body .app-main .card-hint-text {
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Guides 인라인 CTA (CardDetail의 .inline-cta와 별개) */
+body .app-main .inline-cta-card {
+  background: var(--accent-yellow);
+  border: 2px solid var(--text-primary);
+  border-radius: 20px;
+  padding: 26px 22px;
+  text-align: center;
+  box-shadow: 5px 5px 0 var(--primary-color);
+}
+
+body .app-main .inline-cta-emoji {
+  font-size: 2rem;
+  margin: 0 0 8px;
+  line-height: 1;
+}
+
+body .app-main .inline-cta-text {
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 16px;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+}
+
+body .app-main .inline-cta-btn {
+  background: var(--primary-color) !important;
+  color: var(--text-primary) !important;
+  border: 2px solid var(--text-primary) !important;
+  font-weight: 800 !important;
+  text-transform: none !important;
+  letter-spacing: -0.01em !important;
+  box-shadow: 3px 3px 0 var(--text-primary);
+}
+
+body .app-main .inline-cta-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--text-primary) !important;
+}
+
+/* BlogPost 본문 중간 empathy CTA */
+body .app-main .empathy-cta {
+  background: var(--secondary-color);
+  border: 2px solid var(--text-primary);
+  border-radius: 16px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 0 var(--text-primary);
+}
+
+body .app-main .empathy-text {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+body .app-main .empathy-btn {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border: 1.5px solid var(--text-primary) !important;
+  font-weight: 800 !important;
+  text-transform: none !important;
+  letter-spacing: -0.01em !important;
+  box-shadow: 2.5px 2.5px 0 var(--text-primary);
+}
+body .app-main .empathy-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3.5px 3.5px 0 var(--text-primary) !important;
+  background: var(--accent-yellow) !important;
+}
+
+/* BlogPost 본문 카드 그리드 */
+body .app-main .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+body .app-main .card-item {
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 12px;
+  padding: 12px 10px;
+  text-align: center;
+  box-shadow: 2.5px 2.5px 0 var(--text-primary);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+body .app-main .card-item:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--primary-color);
+}
+
+/* 콘텐츠 layout (사이드바, 메인) */
+body .app-main .content-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+body .app-main .content-layout .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+
+/* 데스크탑: 사이드바 있으면 2컬럼 */
+@media (min-width: 960px) {
+  body .app-main .content-layout:has(.sidebar) {
+    grid-template-columns: 1fr 280px;
+  }
+}
+
+/* BlogPost 추천 MBTI 뱃지 */
+body .app-main .mbti-recommend-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 14px 18px;
+  background: var(--accent-yellow);
+  border: 2px solid var(--text-primary);
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 var(--secondary-color);
+}
+
+body .app-main .mbti-recommend-label {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+body .app-main .mbti-chip-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+body .app-main .mbti-chip {
+  background: var(--card-bg);
+  border: 1.5px solid var(--text-primary);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  letter-spacing: 0.02em;
+  box-shadow: 1.5px 1.5px 0 var(--text-primary);
+}
+
+/* GuidesView, BlogPostView 헤더 v-btn에 남은 흰색 color prop 덮어쓰기 */
+body .app-main .page-header .back-button .v-icon {
+  color: var(--text-primary) !important;
+}
+
+/* 모바일 */
+@media (max-width: 600px) {
+  body .app-main .filter-bar {
+    padding: 12px 12px;
+    top: 65px;
+  }
+  body .app-main .filter-container {
+    justify-content: flex-start; /* 모바일은 스크롤 시작점 좌측 */
+  }
+  body .app-main .info-card {
+    padding: 22px 18px;
+    box-shadow: 4px 4px 0 var(--text-primary);
+  }
+  body .app-main .inline-cta-card {
+    padding: 22px 18px;
+    box-shadow: 4px 4px 0 var(--primary-color);
+  }
+  body .app-main .empathy-cta {
+    padding: 16px 16px;
+    box-shadow: 3px 3px 0 var(--text-primary);
+  }
+  body .app-main .section-list.clickable-list li {
+    padding: 12px 14px 12px 32px;
+  }
+  body .app-main .try-badge {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+  }
+  body .app-main .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
